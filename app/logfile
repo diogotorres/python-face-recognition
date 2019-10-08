@@ -1583,3 +1583,62 @@
 2019-10-07 22:11:10,694 DEBUG    https://timedotcom.files.wordpress.com:443 "GET /2016/05/amy-schumer-shopping-size.jpg HTTP/1.1" 200 827875
 2019-10-07 22:11:11,796 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
 2019-10-07 22:11:11,797 INFO     thread downloader-001 exit
+2019-10-08 08:26:57,765 INFO     Starting crawl to Cesar Gon
+2019-10-08 08:26:57,766 INFO     start crawling...
+2019-10-08 08:26:57,766 INFO     starting 1 feeder threads...
+2019-10-08 08:26:57,766 DEBUG    thread feeder-001 started
+2019-10-08 08:26:57,766 DEBUG    put url to url_queue: https://www.google.com/search?q=Cesar+Gon&ijn=0&start=0&tbs=&tbm=isch
+2019-10-08 08:26:57,766 INFO     starting 1 parser threads...
+2019-10-08 08:26:57,766 INFO     thread feeder-001 exit
+2019-10-08 08:26:57,766 DEBUG    thread parser-001 started
+2019-10-08 08:26:57,767 DEBUG    start fetching page https://www.google.com/search?q=Cesar+Gon&ijn=0&start=0&tbs=&tbm=isch
+2019-10-08 08:26:57,767 INFO     starting 1 downloader threads...
+2019-10-08 08:26:57,767 DEBUG    thread downloader-001 started
+2019-10-08 08:26:57,769 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-08 08:26:58,397 DEBUG    https://www.google.com:443 "GET /search?q=Cesar+Gon&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-08 08:26:58,406 INFO     parsing result page https://www.google.com/search?q=Cesar+Gon&ijn=0&start=0&tbs=&tbm=isch
+2019-10-08 08:26:58,445 DEBUG    Starting new HTTPS connection (1): aquieolugar.com.br:443
+2019-10-08 08:26:58,866 DEBUG    https://aquieolugar.com.br:443 "GET /wp-content/uploads/2017/12/DSC4856CERTA.jpg HTTP/1.1" 200 97629
+2019-10-08 08:26:58,935 INFO     image #1	https://aquieolugar.com.br/wp-content/uploads/2017/12/DSC4856CERTA.jpg
+2019-10-08 08:26:58,937 DEBUG    Starting new HTTPS connection (1): revistapesquisa.fapesp.br:443
+2019-10-08 08:26:59,206 DEBUG    https://revistapesquisa.fapesp.br:443 "GET /wp-content/uploads/2019/03/074-077_Entrev-Cesar-Gon_277-0-2280px-abre.jpg HTTP/1.1" 200 209793
+2019-10-08 08:26:59,273 INFO     image #2	https://revistapesquisa.fapesp.br/wp-content/uploads/2019/03/074-077_Entrev-Cesar-Gon_277-0-2280px-abre.jpg
+2019-10-08 08:26:59,281 DEBUG    Starting new HTTP connection (1): s2.glbimg.com:80
+2019-10-08 08:26:59,469 DEBUG    http://s2.glbimg.com:80 "GET /eugxfsLcfZC1R5-zh3V7NTkzXtA=/top/e.glbimg.com/og/ed/f/original/2014/08/05/empreenda-01.jpg HTTP/1.1" 200 65636
+2019-10-08 08:26:59,487 INFO     image #3	http://s2.glbimg.com/eugxfsLcfZC1R5-zh3V7NTkzXtA=/top/e.glbimg.com/og/ed/f/original/2014/08/05/empreenda-01.jpg
+2019-10-08 08:26:59,495 DEBUG    Starting new HTTPS connection (1): br.ciandt.com:443
+2019-10-08 08:27:00,036 DEBUG    https://br.ciandt.com:443 "GET /sites/br.ciandt.com/files/public/2019-02/ExecutiveCesarGon_0012_edited.jpg HTTP/1.1" 200 42207
+2019-10-08 08:27:00,346 INFO     image #4	https://br.ciandt.com/sites/br.ciandt.com/files/public/2019-02/ExecutiveCesarGon_0012_edited.jpg
+2019-10-08 08:27:00,349 DEBUG    Starting new HTTPS connection (1): i.ytimg.com:443
+2019-10-08 08:27:02,606 DEBUG    https://i.ytimg.com:443 "GET /vi/W1IzfHmGj3Q/maxresdefault.jpg HTTP/1.1" 200 56703
+2019-10-08 08:27:02,624 INFO     image #5	https://i.ytimg.com/vi/W1IzfHmGj3Q/maxresdefault.jpg
+2019-10-08 08:27:02,899 DEBUG    https://br.ciandt.com:443 "GET /sites/br.ciandt.com/files/public/2019-09/4-motivos-para-transformacao-digital-dar-errado-segundo-cesar-gon-2.png HTTP/1.1" 200 862293
+2019-10-08 08:27:03,597 DEBUG    STREAM b'IHDR' 16 13
+2019-10-08 08:27:03,597 DEBUG    STREAM b'iCCP' 41 2753
+2019-10-08 08:27:03,598 DEBUG    iCCP profile name b'Display'
+2019-10-08 08:27:03,598 DEBUG    Compression method 0
+2019-10-08 08:27:03,599 DEBUG    STREAM b'pHYs' 2806 9
+2019-10-08 08:27:03,599 DEBUG    STREAM b'iTXt' 2827 1918
+2019-10-08 08:27:03,599 DEBUG    STREAM b'IDAT' 4757 857520
+2019-10-08 08:27:03,600 INFO     image #6	https://br.ciandt.com/sites/br.ciandt.com/files/public/2019-09/4-motivos-para-transformacao-digital-dar-errado-segundo-cesar-gon-2.png
+2019-10-08 08:27:04,685 DEBUG    https://i.ytimg.com:443 "GET /vi/Vu3UDpd0PsU/maxresdefault.jpg HTTP/1.1" 200 97917
+2019-10-08 08:27:04,787 INFO     image #7	https://i.ytimg.com/vi/Vu3UDpd0PsU/maxresdefault.jpg
+2019-10-08 08:27:04,795 DEBUG    Starting new HTTPS connection (1): www.lean-digital-summit.com:443
+2019-10-08 08:27:06,386 DEBUG    https://www.lean-digital-summit.com:443 "GET /media/2018/05/Cesar-Gon.jpeg HTTP/1.1" 200 263561
+2019-10-08 08:27:07,207 INFO     image #8	https://www.lean-digital-summit.com/media/2018/05/Cesar-Gon.jpeg
+2019-10-08 08:27:07,216 DEBUG    Starting new HTTPS connection (1): pbs.twimg.com:443
+2019-10-08 08:27:07,512 DEBUG    https://pbs.twimg.com:443 "GET /profile_images/607972243440865280/ljt9d77x.jpg HTTP/1.1" 404 0
+2019-10-08 08:27:07,513 ERROR    Response status code 404, file https://pbs.twimg.com/profile_images/607972243440865280/ljt9d77x.jpg
+2019-10-08 08:27:07,517 DEBUG    Starting new HTTPS connection (1): us.ciandt.com:443
+2019-10-08 08:27:08,060 DEBUG    https://us.ciandt.com:443 "GET /sites/us.ciandt.com/files/public/2017-08/img-cesar.jpg HTTP/1.1" 200 33894
+2019-10-08 08:27:08,210 INFO     image #9	https://us.ciandt.com/sites/us.ciandt.com/files/public/2017-08/img-cesar.jpg
+2019-10-08 08:27:08,219 DEBUG    Starting new HTTP connection (1): www.meioemensagem.com.br:80
+2019-10-08 08:27:08,641 DEBUG    http://www.meioemensagem.com.br:80 "GET /wp-content/uploads/2017/08/MM-credito-Matheus-Meireles.jpg HTTP/1.1" 200 73367
+2019-10-08 08:27:08,676 INFO     image #10	http://www.meioemensagem.com.br/wp-content/uploads/2017/08/MM-credito-Matheus-Meireles.jpg
+2019-10-08 08:27:08,698 DEBUG    https://pbs.twimg.com:443 "GET /profile_images/1146828304797851654/TgQsaDvL_400x400.jpg HTTP/1.1" 200 34743
+2019-10-08 08:27:08,709 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-08 08:27:08,710 INFO     thread downloader-001 exit
+2019-10-08 08:27:08,781 INFO     Crawling task done!
+2019-10-08 08:27:08,781 INFO     Finish crawling
+2019-10-08 08:27:09,700 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-08 08:27:09,700 INFO     thread parser-001 exit
