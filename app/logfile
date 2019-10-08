@@ -1,0 +1,150 @@
+2019-10-07 21:31:04,934 INFO     Starting crawl to albert einstein
+2019-10-07 21:31:04,935 INFO     start crawling...
+2019-10-07 21:31:04,935 INFO     starting 1 feeder threads...
+2019-10-07 21:31:04,935 DEBUG    thread feeder-001 started
+2019-10-07 21:31:04,936 DEBUG    put url to url_queue: https://www.google.com/search?q=albert+einstein&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:31:04,936 INFO     starting 1 parser threads...
+2019-10-07 21:31:04,936 INFO     thread feeder-001 exit
+2019-10-07 21:31:04,936 DEBUG    thread parser-001 started
+2019-10-07 21:31:04,937 DEBUG    start fetching page https://www.google.com/search?q=albert+einstein&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:31:04,937 INFO     starting 1 downloader threads...
+2019-10-07 21:31:04,937 DEBUG    thread downloader-001 started
+2019-10-07 21:31:04,941 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 21:31:09,938 INFO     downloader-001 is waiting for new download tasks
+2019-10-07 21:31:10,022 DEBUG    https://www.google.com:443 "GET /search?q=albert+einstein&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 21:31:10,071 INFO     parsing result page https://www.google.com/search?q=albert+einstein&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:31:10,150 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 21:31:10,946 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/d/d3/Albert_Einstein_Head.jpg HTTP/1.1" 200 2309396
+2019-10-07 21:31:12,171 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg
+2019-10-07 21:31:12,176 DEBUG    Starting new HTTP connection (1): opiniaoenoticia.com.br:80
+2019-10-07 21:31:12,584 DEBUG    http://opiniaoenoticia.com.br:80 "GET /wp-content/uploads/url-3-10tjli1.jpeg HTTP/1.1" 200 181232
+2019-10-07 21:31:13,157 INFO     image #2	http://opiniaoenoticia.com.br/wp-content/uploads/url-3-10tjli1.jpeg
+2019-10-07 21:31:13,166 DEBUG    Starting new HTTPS connection (1): impa.br:443
+2019-10-07 21:31:13,298 DEBUG    https://impa.br:443 "GET /wp-content/uploads/2019/03/einstein-new.jpg HTTP/1.1" 200 652212
+2019-10-07 21:31:13,453 INFO     image #3	https://impa.br/wp-content/uploads/2019/03/einstein-new.jpg
+2019-10-07 21:31:13,456 DEBUG    Starting new HTTPS connection (1): cdn.mos.cms.futurecdn.net:443
+2019-10-07 21:31:14,838 DEBUG    https://cdn.mos.cms.futurecdn.net:443 "GET /c7dppKDbG3JXuMfybV5tUX-320-80.jpg HTTP/1.1" 200 24236
+2019-10-07 21:31:14,840 INFO     image #4	https://cdn.mos.cms.futurecdn.net/c7dppKDbG3JXuMfybV5tUX-320-80.jpg
+2019-10-07 21:31:15,042 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg HTTP/1.1" 200 2713057
+2019-10-07 21:31:15,921 INFO     image #5	https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg
+2019-10-07 21:31:15,926 DEBUG    Starting new HTTPS connection (1): bneinoach.org.br:443
+2019-10-07 21:31:16,578 DEBUG    https://bneinoach.org.br:443 "GET /wp-content/uploads/2019/08/einstein.jpg HTTP/1.1" 200 82785
+2019-10-07 21:31:17,705 INFO     image #6	https://bneinoach.org.br/wp-content/uploads/2019/08/einstein.jpg
+2019-10-07 21:31:17,708 DEBUG    Starting new HTTPS connection (1): i0.wp.com:443
+2019-10-07 21:31:17,787 DEBUG    https://i0.wp.com:443 "GET /www.jornalopcao.com.br/wp-content/uploads/2014/05/direto1.jpg?resize=620%2C350 HTTP/1.1" 200 62380
+2019-10-07 21:31:17,814 INFO     image #7	https://i0.wp.com/www.jornalopcao.com.br/wp-content/uploads/2014/05/direto1.jpg?resize=620%2C350
+2019-10-07 21:31:17,817 DEBUG    Starting new HTTPS connection (1): hips.hearstapps.com:443
+2019-10-07 21:31:18,058 DEBUG    https://hips.hearstapps.com:443 "GET /hmg-prod.s3.amazonaws.com/images/einstein-1544106382.jpg?crop=0.610xw:0.805xh;0.130xw,0.195xh&resize=480:* HTTP/1.1" 200 42681
+2019-10-07 21:31:18,094 INFO     image #8	https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/einstein-1544106382.jpg?crop=0.610xw:0.805xh;0.130xw,0.195xh&resize=480:*
+2019-10-07 21:31:18,100 DEBUG    Starting new HTTPS connection (1): escolaeducacao.com.br:443
+2019-10-07 21:31:18,624 DEBUG    https://escolaeducacao.com.br:443 "GET /wp-content/uploads/2018/11/albert-einstein-biografia-750x430.jpg HTTP/1.1" 200 42621
+2019-10-07 21:31:18,633 INFO     image #9	https://escolaeducacao.com.br/wp-content/uploads/2018/11/albert-einstein-biografia-750x430.jpg
+2019-10-07 21:31:18,638 DEBUG    Starting new HTTPS connection (1): blog.estantevirtual.com.br:443
+2019-10-07 21:31:19,855 DEBUG    https://blog.estantevirtual.com.br:443 "GET /wp-content/uploads/albert-einstein-800x445.png HTTP/1.1" 200 420685
+2019-10-07 21:31:20,476 DEBUG    STREAM b'IHDR' 16 13
+2019-10-07 21:31:20,477 DEBUG    STREAM b'pHYs' 41 9
+2019-10-07 21:31:20,477 DEBUG    STREAM b'IDAT' 62 8192
+2019-10-07 21:31:20,478 INFO     image #10	https://blog.estantevirtual.com.br/wp-content/uploads/albert-einstein-800x445.png
+2019-10-07 21:31:20,484 DEBUG    Starting new HTTPS connection (1): pbs.twimg.com:443
+2019-10-07 21:31:20,571 DEBUG    https://pbs.twimg.com:443 "GET /profile_images/879355674957926400/VSGZHGib.jpg HTTP/1.1" 200 56060
+2019-10-07 21:31:20,584 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 21:31:20,585 INFO     thread downloader-001 exit
+2019-10-07 21:31:20,636 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 21:31:20,636 INFO     thread parser-001 exit
+2019-10-07 21:31:20,956 INFO     Crawling task done!
+2019-10-07 21:31:20,956 INFO     Finish crawling
+2019-10-07 21:32:09,693 INFO     Starting crawl to maradona
+2019-10-07 21:32:09,694 INFO     start crawling...
+2019-10-07 21:32:09,694 INFO     starting 1 feeder threads...
+2019-10-07 21:32:09,695 DEBUG    thread feeder-001 started
+2019-10-07 21:32:09,695 DEBUG    put url to url_queue: https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:32:09,695 INFO     thread feeder-001 exit
+2019-10-07 21:32:09,695 INFO     starting 1 parser threads...
+2019-10-07 21:32:09,695 DEBUG    thread parser-001 started
+2019-10-07 21:32:09,696 DEBUG    start fetching page https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:32:09,696 INFO     starting 1 downloader threads...
+2019-10-07 21:32:09,697 DEBUG    thread downloader-001 started
+2019-10-07 21:32:09,700 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 21:32:10,234 DEBUG    https://www.google.com:443 "GET /search?q=maradona&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 21:32:10,248 INFO     parsing result page https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:32:10,328 DEBUG    Starting new HTTPS connection (1): www.abola.pt:443
+2019-10-07 21:32:12,188 DEBUG    https://www.abola.pt:443 "GET //img/fotos/abola2015/FOTOSAP/ARGENTINA/2019/maradona5.jpg HTTP/1.1" 200 45432
+2019-10-07 21:32:12,837 INFO     image #1	https://www.abola.pt//img/fotos/abola2015/FOTOSAP/ARGENTINA/2019/maradona5.jpg
+2019-10-07 21:32:12,838 INFO     skip downloading file 000002.jpg
+2019-10-07 21:32:12,840 DEBUG    Starting new HTTPS connection (1): s2.glbimg.com:443
+2019-10-07 21:32:13,246 DEBUG    https://s2.glbimg.com:443 "GET /sEsOG5YBxTK-yrLLrMV_n1M5u8k=/0x0:1024x683/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/q/l/3oR3APSKeSSuuN72nL2g/maradona-napoli.jfif HTTP/1.1" 200 139292
+2019-10-07 21:32:13,571 INFO     image #3	https://s2.glbimg.com/sEsOG5YBxTK-yrLLrMV_n1M5u8k=/0x0:1024x683/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/q/l/3oR3APSKeSSuuN72nL2g/maradona-napoli.jfif
+2019-10-07 21:32:13,574 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 21:32:14,436 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG HTTP/1.1" 200 1536472
+2019-10-07 21:32:15,687 INFO     image #4	https://upload.wikimedia.org/wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG
+2019-10-07 21:32:15,692 DEBUG    Starting new HTTPS connection (1): sportshub.cbsistatic.com:443
+2019-10-07 21:32:15,824 DEBUG    https://sportshub.cbsistatic.com:443 "GET /i/r/2019/10/01/b29aa8e5-228d-4b49-bdaf-5599ade5145a/thumbnail/1200x675/90287722331f9ba5488d0ca04f942188/diego-maradona-argentina.jpg HTTP/1.1" 200 128231
+2019-10-07 21:32:15,895 INFO     image #5	https://sportshub.cbsistatic.com/i/r/2019/10/01/b29aa8e5-228d-4b49-bdaf-5599ade5145a/thumbnail/1200x675/90287722331f9ba5488d0ca04f942188/diego-maradona-argentina.jpg
+2019-10-07 21:32:15,896 INFO     skip downloading file 000006.jpg
+2019-10-07 21:32:15,901 DEBUG    Starting new HTTP connection (1): www.abola.pt:80
+2019-10-07 21:32:16,480 DEBUG    http://www.abola.pt:80 "GET //img/fotos/ABOLA2015/FOTOSDR/2019/maradonagimnasia.jpg HTTP/1.1" 302 0
+2019-10-07 21:32:16,788 DEBUG    https://www.abola.pt:443 "GET //img/fotos/ABOLA2015/FOTOSDR/2019/maradonagimnasia.jpg HTTP/1.1" 200 19942
+2019-10-07 21:32:17,007 INFO     image #7	http://www.abola.pt//img/fotos/ABOLA2015/FOTOSDR/2019/maradonagimnasia.jpg
+2019-10-07 21:32:17,011 DEBUG    Starting new HTTPS connection (1): www.gazetaesportiva.com:443
+2019-10-07 21:32:17,117 DEBUG    https://www.gazetaesportiva.com:443 "GET /wp-content/uploads/imagem/2019/08/01/Maradona-1024x651-1024x651.jpg HTTP/1.1" 200 79054
+2019-10-07 21:32:17,138 INFO     image #8	https://www.gazetaesportiva.com/wp-content/uploads/imagem/2019/08/01/Maradona-1024x651-1024x651.jpg
+2019-10-07 21:32:17,141 DEBUG    Starting new HTTPS connection (1): img.etimg.com:443
+2019-10-07 21:32:17,710 DEBUG    https://img.etimg.com:443 "GET /thumb/msid-71368437,width-643,imgsize-941901,resizemode-4/ets-dualpane-2019-09-30t092444-859.jpg HTTP/1.1" 200 25926
+2019-10-07 21:32:17,722 DEBUG    Importing BlpImagePlugin
+2019-10-07 21:32:17,723 DEBUG    Importing BmpImagePlugin
+2019-10-07 21:32:17,724 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 21:32:17,724 DEBUG    Importing CurImagePlugin
+2019-10-07 21:32:17,725 DEBUG    Importing DcxImagePlugin
+2019-10-07 21:32:17,727 DEBUG    Importing DdsImagePlugin
+2019-10-07 21:32:17,727 DEBUG    Importing EpsImagePlugin
+2019-10-07 21:32:17,728 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 21:32:17,729 DEBUG    Importing FliImagePlugin
+2019-10-07 21:32:17,729 DEBUG    Importing FpxImagePlugin
+2019-10-07 21:32:17,730 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 21:32:17,730 DEBUG    Importing FtexImagePlugin
+2019-10-07 21:32:17,730 DEBUG    Importing GbrImagePlugin
+2019-10-07 21:32:17,730 DEBUG    Importing GifImagePlugin
+2019-10-07 21:32:17,731 DEBUG    Importing GribStubImagePlugin
+2019-10-07 21:32:17,731 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 21:32:17,731 DEBUG    Importing IcnsImagePlugin
+2019-10-07 21:32:17,732 DEBUG    Importing IcoImagePlugin
+2019-10-07 21:32:17,733 DEBUG    Importing ImImagePlugin
+2019-10-07 21:32:17,734 DEBUG    Importing ImtImagePlugin
+2019-10-07 21:32:17,734 DEBUG    Importing IptcImagePlugin
+2019-10-07 21:32:17,735 DEBUG    Importing JpegImagePlugin
+2019-10-07 21:32:17,735 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 21:32:17,735 DEBUG    Importing McIdasImagePlugin
+2019-10-07 21:32:17,735 DEBUG    Importing MicImagePlugin
+2019-10-07 21:32:17,736 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 21:32:17,736 DEBUG    Importing MpegImagePlugin
+2019-10-07 21:32:17,736 DEBUG    Importing MpoImagePlugin
+2019-10-07 21:32:17,737 DEBUG    Importing MspImagePlugin
+2019-10-07 21:32:17,737 DEBUG    Importing PalmImagePlugin
+2019-10-07 21:32:17,738 DEBUG    Importing PcdImagePlugin
+2019-10-07 21:32:17,739 DEBUG    Importing PcxImagePlugin
+2019-10-07 21:32:17,739 DEBUG    Importing PdfImagePlugin
+2019-10-07 21:32:17,749 DEBUG    Importing PixarImagePlugin
+2019-10-07 21:32:17,749 DEBUG    Importing PngImagePlugin
+2019-10-07 21:32:17,750 DEBUG    Importing PpmImagePlugin
+2019-10-07 21:32:17,750 DEBUG    Importing PsdImagePlugin
+2019-10-07 21:32:17,750 DEBUG    Importing SgiImagePlugin
+2019-10-07 21:32:17,751 DEBUG    Importing SpiderImagePlugin
+2019-10-07 21:32:17,751 DEBUG    Importing SunImagePlugin
+2019-10-07 21:32:17,751 DEBUG    Importing TgaImagePlugin
+2019-10-07 21:32:17,752 DEBUG    Importing TiffImagePlugin
+2019-10-07 21:32:17,752 DEBUG    Importing WebPImagePlugin
+2019-10-07 21:32:17,753 DEBUG    Importing WmfImagePlugin
+2019-10-07 21:32:17,753 DEBUG    Importing XbmImagePlugin
+2019-10-07 21:32:17,755 DEBUG    Importing XpmImagePlugin
+2019-10-07 21:32:17,756 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 21:32:17,757 INFO     image #9	https://img.etimg.com/thumb/msid-71368437,width-643,imgsize-941901,resizemode-4/ets-dualpane-2019-09-30t092444-859.jpg
+2019-10-07 21:32:17,757 INFO     skip downloading file 000010.jpg
+2019-10-07 21:32:17,758 INFO     skip downloading file 000011.jpg
+2019-10-07 21:32:17,760 DEBUG    Starting new HTTPS connection (1): media.gq-magazine.co.uk:443
+2019-10-07 21:32:17,849 DEBUG    https://media.gq-magazine.co.uk:443 "GET /photos/5d13ae4393d83f0087f860b4/master/pass/maradona-02-gq-10jun19_getty_b.jpg HTTP/1.1" 200 400432
+2019-10-07 21:32:17,931 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 21:32:17,932 INFO     thread downloader-001 exit
+2019-10-07 21:32:18,707 INFO     Crawling task done!
+2019-10-07 21:32:18,708 INFO     Finish crawling
+2019-10-07 21:32:19,460 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 21:32:19,461 INFO     thread parser-001 exit
