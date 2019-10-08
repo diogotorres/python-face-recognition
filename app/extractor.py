@@ -6,6 +6,8 @@ import argparse
 import json
 
 
+
+
 # argument parser that expects an URL
 ap = argparse.ArgumentParser()
 ap.add_argument("-u", "--imageurl", required=True, help="image URL to recognize some face")

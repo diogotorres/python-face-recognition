@@ -148,3 +148,1438 @@
 2019-10-07 21:32:18,708 INFO     Finish crawling
 2019-10-07 21:32:19,460 INFO     downloaded image reached max num, thread parser-001 is ready to exit
 2019-10-07 21:32:19,461 INFO     thread parser-001 exit
+2019-10-07 21:50:49,544 INFO     Starting crawl to maradona
+2019-10-07 21:50:49,545 INFO     start crawling...
+2019-10-07 21:50:49,545 INFO     starting 1 feeder threads...
+2019-10-07 21:50:49,545 DEBUG    thread feeder-001 started
+2019-10-07 21:50:49,546 DEBUG    put url to url_queue: https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:50:49,546 INFO     thread feeder-001 exit
+2019-10-07 21:50:49,546 INFO     starting 1 parser threads...
+2019-10-07 21:50:49,546 DEBUG    thread parser-001 started
+2019-10-07 21:50:49,546 DEBUG    start fetching page https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:50:49,547 INFO     starting 1 downloader threads...
+2019-10-07 21:50:49,547 DEBUG    thread downloader-001 started
+2019-10-07 21:50:49,550 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 21:50:50,087 DEBUG    https://www.google.com:443 "GET /search?q=maradona&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 21:50:50,104 INFO     parsing result page https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:50:50,184 DEBUG    Starting new HTTPS connection (1): www.abola.pt:443
+2019-10-07 21:50:52,034 DEBUG    https://www.abola.pt:443 "GET //img/fotos/abola2015/FOTOSAP/ARGENTINA/2019/maradona5.jpg HTTP/1.1" 200 45432
+2019-10-07 21:50:52,684 INFO     image #1	https://www.abola.pt//img/fotos/abola2015/FOTOSAP/ARGENTINA/2019/maradona5.jpg
+2019-10-07 21:50:52,685 INFO     skip downloading file 000002.jpg
+2019-10-07 21:50:52,685 INFO     skip downloading file 000003.jpg
+2019-10-07 21:50:52,689 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 21:50:53,571 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG HTTP/1.1" 200 1536472
+2019-10-07 21:50:54,656 INFO     image #4	https://upload.wikimedia.org/wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG
+2019-10-07 21:50:54,663 DEBUG    Starting new HTTPS connection (1): conteudo.imguol.com.br:443
+2019-10-07 21:50:55,926 DEBUG    https://conteudo.imguol.com.br:443 "GET /c/entretenimento/3c/2019/04/23/cena-do-documentario-diego-maradona-1556023517864_v2_900x506.jpg HTTP/1.1" 200 54532
+2019-10-07 21:50:56,099 INFO     image #5	https://conteudo.imguol.com.br/c/entretenimento/3c/2019/04/23/cena-do-documentario-diego-maradona-1556023517864_v2_900x506.jpg
+2019-10-07 21:50:56,100 INFO     skip downloading file 000006.jpg
+2019-10-07 21:50:56,104 DEBUG    Starting new HTTPS connection (1): www.thenational.ae:443
+2019-10-07 21:50:56,421 DEBUG    https://www.thenational.ae:443 "GET /image/policy:1.919643:1570342935/929846-01-05.jpg?f=16x9&w=1200&$p$f$w=e883c7f HTTP/1.1" 200 None
+2019-10-07 21:50:56,441 INFO     image #7	https://www.thenational.ae/image/policy:1.919643:1570342935/929846-01-05.jpg?f=16x9&w=1200&$p$f$w=e883c7f
+2019-10-07 21:50:56,446 DEBUG    Starting new HTTP connection (1): www.abola.pt:80
+2019-10-07 21:50:57,050 DEBUG    http://www.abola.pt:80 "GET //img/fotos/ABOLA2015/FOTOSDR/2019/maradonagimnasia.jpg HTTP/1.1" 302 0
+2019-10-07 21:50:57,360 DEBUG    https://www.abola.pt:443 "GET //img/fotos/ABOLA2015/FOTOSDR/2019/maradonagimnasia.jpg HTTP/1.1" 200 19942
+2019-10-07 21:50:57,670 INFO     image #8	http://www.abola.pt//img/fotos/ABOLA2015/FOTOSDR/2019/maradonagimnasia.jpg
+2019-10-07 21:50:57,675 DEBUG    Starting new HTTPS connection (1): img.etimg.com:443
+2019-10-07 21:50:57,965 DEBUG    https://img.etimg.com:443 "GET /thumb/msid-71368437,width-643,imgsize-941901,resizemode-4/ets-dualpane-2019-09-30t092444-859.jpg HTTP/1.1" 200 25926
+2019-10-07 21:50:57,972 DEBUG    Importing BlpImagePlugin
+2019-10-07 21:50:57,974 DEBUG    Importing BmpImagePlugin
+2019-10-07 21:50:57,975 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 21:50:57,976 DEBUG    Importing CurImagePlugin
+2019-10-07 21:50:57,977 DEBUG    Importing DcxImagePlugin
+2019-10-07 21:50:57,979 DEBUG    Importing DdsImagePlugin
+2019-10-07 21:50:57,980 DEBUG    Importing EpsImagePlugin
+2019-10-07 21:50:57,981 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 21:50:57,982 DEBUG    Importing FliImagePlugin
+2019-10-07 21:50:57,982 DEBUG    Importing FpxImagePlugin
+2019-10-07 21:50:57,983 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 21:50:57,983 DEBUG    Importing FtexImagePlugin
+2019-10-07 21:50:57,984 DEBUG    Importing GbrImagePlugin
+2019-10-07 21:50:57,985 DEBUG    Importing GifImagePlugin
+2019-10-07 21:50:57,985 DEBUG    Importing GribStubImagePlugin
+2019-10-07 21:50:57,985 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 21:50:57,986 DEBUG    Importing IcnsImagePlugin
+2019-10-07 21:50:57,987 DEBUG    Importing IcoImagePlugin
+2019-10-07 21:50:57,988 DEBUG    Importing ImImagePlugin
+2019-10-07 21:50:57,989 DEBUG    Importing ImtImagePlugin
+2019-10-07 21:50:57,989 DEBUG    Importing IptcImagePlugin
+2019-10-07 21:50:57,990 DEBUG    Importing JpegImagePlugin
+2019-10-07 21:50:57,990 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 21:50:57,990 DEBUG    Importing McIdasImagePlugin
+2019-10-07 21:50:57,991 DEBUG    Importing MicImagePlugin
+2019-10-07 21:50:57,991 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 21:50:57,991 DEBUG    Importing MpegImagePlugin
+2019-10-07 21:50:57,992 DEBUG    Importing MpoImagePlugin
+2019-10-07 21:50:57,992 DEBUG    Importing MspImagePlugin
+2019-10-07 21:50:57,993 DEBUG    Importing PalmImagePlugin
+2019-10-07 21:50:57,993 DEBUG    Importing PcdImagePlugin
+2019-10-07 21:50:57,994 DEBUG    Importing PcxImagePlugin
+2019-10-07 21:50:57,994 DEBUG    Importing PdfImagePlugin
+2019-10-07 21:50:58,005 DEBUG    Importing PixarImagePlugin
+2019-10-07 21:50:58,005 DEBUG    Importing PngImagePlugin
+2019-10-07 21:50:58,006 DEBUG    Importing PpmImagePlugin
+2019-10-07 21:50:58,006 DEBUG    Importing PsdImagePlugin
+2019-10-07 21:50:58,006 DEBUG    Importing SgiImagePlugin
+2019-10-07 21:50:58,007 DEBUG    Importing SpiderImagePlugin
+2019-10-07 21:50:58,007 DEBUG    Importing SunImagePlugin
+2019-10-07 21:50:58,008 DEBUG    Importing TgaImagePlugin
+2019-10-07 21:50:58,008 DEBUG    Importing TiffImagePlugin
+2019-10-07 21:50:58,008 DEBUG    Importing WebPImagePlugin
+2019-10-07 21:50:58,009 DEBUG    Importing WmfImagePlugin
+2019-10-07 21:50:58,010 DEBUG    Importing XbmImagePlugin
+2019-10-07 21:50:58,011 DEBUG    Importing XpmImagePlugin
+2019-10-07 21:50:58,012 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 21:50:58,013 INFO     image #9	https://img.etimg.com/thumb/msid-71368437,width-643,imgsize-941901,resizemode-4/ets-dualpane-2019-09-30t092444-859.jpg
+2019-10-07 21:50:58,016 DEBUG    Starting new HTTPS connection (1): cdn.britannica.com:443
+2019-10-07 21:50:58,383 DEBUG    https://cdn.britannica.com:443 "GET /76/124976-050-E03E50CE/Diego-Maradona-1986.jpg HTTP/1.1" 200 776520
+2019-10-07 21:50:58,530 INFO     image #10	https://cdn.britannica.com/76/124976-050-E03E50CE/Diego-Maradona-1986.jpg
+2019-10-07 21:50:58,532 INFO     skip downloading file 000011.jpg
+2019-10-07 21:50:58,690 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/6/6a/Maradona_Soccer_Aid_2.jpg/150px-Maradona_Soccer_Aid_2.jpg HTTP/1.1" 200 10803
+2019-10-07 21:50:58,691 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 21:50:58,691 INFO     thread downloader-001 exit
+2019-10-07 21:50:59,559 INFO     Crawling task done!
+2019-10-07 21:50:59,560 INFO     Finish crawling
+2019-10-07 21:51:00,543 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 21:51:00,543 INFO     thread parser-001 exit
+2019-10-07 21:59:22,744 INFO     Starting crawl to maradona
+2019-10-07 21:59:22,745 INFO     start crawling...
+2019-10-07 21:59:22,745 INFO     starting 1 feeder threads...
+2019-10-07 21:59:22,745 DEBUG    thread feeder-001 started
+2019-10-07 21:59:22,746 DEBUG    put url to url_queue: https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:59:22,746 INFO     starting 1 parser threads...
+2019-10-07 21:59:22,746 INFO     thread feeder-001 exit
+2019-10-07 21:59:22,746 DEBUG    thread parser-001 started
+2019-10-07 21:59:22,747 DEBUG    start fetching page https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:59:22,747 INFO     starting 1 downloader threads...
+2019-10-07 21:59:22,748 DEBUG    thread downloader-001 started
+2019-10-07 21:59:22,751 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 21:59:23,318 DEBUG    https://www.google.com:443 "GET /search?q=maradona&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 21:59:23,343 INFO     parsing result page https://www.google.com/search?q=maradona&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 21:59:23,438 DEBUG    Starting new HTTPS connection (1): www.abola.pt:443
+2019-10-07 21:59:25,446 DEBUG    https://www.abola.pt:443 "GET //img/fotos/abola2015/FOTOSAP/ARGENTINA/2019/maradona5.jpg HTTP/1.1" 200 45432
+2019-10-07 21:59:25,796 INFO     image #1	https://www.abola.pt//img/fotos/abola2015/FOTOSAP/ARGENTINA/2019/maradona5.jpg
+2019-10-07 21:59:25,796 INFO     skip downloading file 000002.jpg
+2019-10-07 21:59:25,797 INFO     skip downloading file 000003.jpg
+2019-10-07 21:59:25,799 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 21:59:26,898 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG HTTP/1.1" 200 1536472
+2019-10-07 21:59:28,005 INFO     image #4	https://upload.wikimedia.org/wikipedia/commons/9/97/Maradona_at_2012_GCC_Champions_League_final.JPG
+2019-10-07 21:59:28,009 DEBUG    Starting new HTTPS connection (1): conteudo.imguol.com.br:443
+2019-10-07 21:59:28,639 DEBUG    https://conteudo.imguol.com.br:443 "GET /c/entretenimento/3c/2019/04/23/cena-do-documentario-diego-maradona-1556023517864_v2_900x506.jpg HTTP/1.1" 200 54532
+2019-10-07 21:59:28,788 INFO     image #5	https://conteudo.imguol.com.br/c/entretenimento/3c/2019/04/23/cena-do-documentario-diego-maradona-1556023517864_v2_900x506.jpg
+2019-10-07 21:59:28,789 INFO     skip downloading file 000006.jpg
+2019-10-07 21:59:28,789 INFO     skip downloading file 000007.jpg
+2019-10-07 21:59:28,792 DEBUG    Starting new HTTPS connection (1): img.etimg.com:443
+2019-10-07 21:59:29,002 DEBUG    https://img.etimg.com:443 "GET /thumb/msid-71368437,width-643,imgsize-941901,resizemode-4/ets-dualpane-2019-09-30t092444-859.jpg HTTP/1.1" 200 25926
+2019-10-07 21:59:29,008 DEBUG    Importing BlpImagePlugin
+2019-10-07 21:59:29,009 DEBUG    Importing BmpImagePlugin
+2019-10-07 21:59:29,009 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 21:59:29,009 DEBUG    Importing CurImagePlugin
+2019-10-07 21:59:29,010 DEBUG    Importing DcxImagePlugin
+2019-10-07 21:59:29,010 DEBUG    Importing DdsImagePlugin
+2019-10-07 21:59:29,011 DEBUG    Importing EpsImagePlugin
+2019-10-07 21:59:29,012 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 21:59:29,012 DEBUG    Importing FliImagePlugin
+2019-10-07 21:59:29,013 DEBUG    Importing FpxImagePlugin
+2019-10-07 21:59:29,013 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 21:59:29,013 DEBUG    Importing FtexImagePlugin
+2019-10-07 21:59:29,014 DEBUG    Importing GbrImagePlugin
+2019-10-07 21:59:29,014 DEBUG    Importing GifImagePlugin
+2019-10-07 21:59:29,014 DEBUG    Importing GribStubImagePlugin
+2019-10-07 21:59:29,015 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 21:59:29,015 DEBUG    Importing IcnsImagePlugin
+2019-10-07 21:59:29,016 DEBUG    Importing IcoImagePlugin
+2019-10-07 21:59:29,016 DEBUG    Importing ImImagePlugin
+2019-10-07 21:59:29,017 DEBUG    Importing ImtImagePlugin
+2019-10-07 21:59:29,018 DEBUG    Importing IptcImagePlugin
+2019-10-07 21:59:29,019 DEBUG    Importing JpegImagePlugin
+2019-10-07 21:59:29,019 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 21:59:29,019 DEBUG    Importing McIdasImagePlugin
+2019-10-07 21:59:29,019 DEBUG    Importing MicImagePlugin
+2019-10-07 21:59:29,020 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 21:59:29,020 DEBUG    Importing MpegImagePlugin
+2019-10-07 21:59:29,020 DEBUG    Importing MpoImagePlugin
+2019-10-07 21:59:29,021 DEBUG    Importing MspImagePlugin
+2019-10-07 21:59:29,021 DEBUG    Importing PalmImagePlugin
+2019-10-07 21:59:29,022 DEBUG    Importing PcdImagePlugin
+2019-10-07 21:59:29,022 DEBUG    Importing PcxImagePlugin
+2019-10-07 21:59:29,022 DEBUG    Importing PdfImagePlugin
+2019-10-07 21:59:29,033 DEBUG    Importing PixarImagePlugin
+2019-10-07 21:59:29,033 DEBUG    Importing PngImagePlugin
+2019-10-07 21:59:29,033 DEBUG    Importing PpmImagePlugin
+2019-10-07 21:59:29,034 DEBUG    Importing PsdImagePlugin
+2019-10-07 21:59:29,034 DEBUG    Importing SgiImagePlugin
+2019-10-07 21:59:29,034 DEBUG    Importing SpiderImagePlugin
+2019-10-07 21:59:29,035 DEBUG    Importing SunImagePlugin
+2019-10-07 21:59:29,035 DEBUG    Importing TgaImagePlugin
+2019-10-07 21:59:29,036 DEBUG    Importing TiffImagePlugin
+2019-10-07 21:59:29,036 DEBUG    Importing WebPImagePlugin
+2019-10-07 21:59:29,037 DEBUG    Importing WmfImagePlugin
+2019-10-07 21:59:29,038 DEBUG    Importing XbmImagePlugin
+2019-10-07 21:59:29,039 DEBUG    Importing XpmImagePlugin
+2019-10-07 21:59:29,040 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 21:59:29,041 INFO     image #8	https://img.etimg.com/thumb/msid-71368437,width-643,imgsize-941901,resizemode-4/ets-dualpane-2019-09-30t092444-859.jpg
+2019-10-07 21:59:29,044 DEBUG    Starting new HTTPS connection (1): www.thesun.co.uk:443
+2019-10-07 21:59:29,346 DEBUG    https://www.thesun.co.uk:443 "GET /wp-content/uploads/2019/10/sport-preview-Maradona.jpg?strip=all&quality=100&w=1200&h=800&crop=1 HTTP/1.1" 200 377306
+2019-10-07 21:59:29,419 INFO     image #9	https://www.thesun.co.uk/wp-content/uploads/2019/10/sport-preview-Maradona.jpg?strip=all&quality=100&w=1200&h=800&crop=1
+2019-10-07 21:59:29,422 DEBUG    Starting new HTTPS connection (1): cdni.rt.com:443
+2019-10-07 21:59:29,504 DEBUG    https://cdni.rt.com:443 "GET /files/2019.10/xxs/5d99d23285f5404068605d65.jpg HTTP/1.1" 200 10115
+2019-10-07 21:59:29,507 INFO     image #10	https://cdni.rt.com/files/2019.10/xxs/5d99d23285f5404068605d65.jpg
+2019-10-07 21:59:29,508 INFO     skip downloading file 000011.jpg
+2019-10-07 21:59:29,513 DEBUG    Starting new HTTPS connection (1): f.i.uol.com.br:443
+2019-10-07 21:59:29,695 DEBUG    https://f.i.uol.com.br:443 "GET /fotografia/2018/09/14/15369609905b9c29de10fbc_1536960990_3x2_md.jpg HTTP/1.1" 200 49088
+2019-10-07 21:59:29,708 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 21:59:29,708 INFO     thread downloader-001 exit
+2019-10-07 21:59:29,755 INFO     Crawling task done!
+2019-10-07 21:59:29,756 INFO     Finish crawling
+2019-10-07 21:59:30,532 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 21:59:30,768 INFO     thread parser-001 exit
+2019-10-07 22:03:06,989 INFO     Starting crawl to Aaron Taylor-Johnson
+2019-10-07 22:03:06,990 INFO     start crawling...
+2019-10-07 22:03:06,990 INFO     starting 1 feeder threads...
+2019-10-07 22:03:06,990 DEBUG    thread feeder-001 started
+2019-10-07 22:03:06,991 DEBUG    put url to url_queue: https://www.google.com/search?q=Aaron+Taylor-Johnson&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:06,991 INFO     starting 1 parser threads...
+2019-10-07 22:03:06,991 INFO     thread feeder-001 exit
+2019-10-07 22:03:06,991 DEBUG    thread parser-001 started
+2019-10-07 22:03:06,992 DEBUG    start fetching page https://www.google.com/search?q=Aaron+Taylor-Johnson&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:06,992 INFO     starting 1 downloader threads...
+2019-10-07 22:03:06,993 DEBUG    thread downloader-001 started
+2019-10-07 22:03:06,996 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:03:07,671 DEBUG    https://www.google.com:443 "GET /search?q=Aaron+Taylor-Johnson&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:03:07,686 INFO     parsing result page https://www.google.com/search?q=Aaron+Taylor-Johnson&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:07,751 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:03:08,420 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/9/96/Aaron_Taylor-Johnson_SDCC_2014_%28cropped%29.jpg HTTP/1.1" 200 1284514
+2019-10-07 22:03:09,339 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/9/96/Aaron_Taylor-Johnson_SDCC_2014_%28cropped%29.jpg
+2019-10-07 22:03:09,478 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/9/9e/Outlaw_King_01_%2830876637138%29_%28cropped%29.jpg/1200px-Outlaw_King_01_%2830876637138%29_%28cropped%29.jpg HTTP/1.1" 200 213806
+2019-10-07 22:03:09,517 INFO     image #2	https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Outlaw_King_01_%2830876637138%29_%28cropped%29.jpg/1200px-Outlaw_King_01_%2830876637138%29_%28cropped%29.jpg
+2019-10-07 22:03:09,523 DEBUG    Starting new HTTPS connection (1): hips.hearstapps.com:443
+2019-10-07 22:03:09,633 DEBUG    https://hips.hearstapps.com:443 "GET /elleuk.cdnds.net/17/06/3200x1600/landscape-1486647398-aarontaylorjohnson.jpg?resize=480:* HTTP/1.1" 200 12822
+2019-10-07 22:03:09,635 INFO     image #3	https://hips.hearstapps.com/elleuk.cdnds.net/17/06/3200x1600/landscape-1486647398-aarontaylorjohnson.jpg?resize=480:*
+2019-10-07 22:03:09,640 DEBUG    Starting new HTTPS connection (1): static.independent.co.uk:443
+2019-10-07 22:03:09,743 DEBUG    https://static.independent.co.uk:443 "GET /s3fs-public/thumbnails/image/2018/10/26/17/aaron-taylor-johnson-1.jpg?w968h681 HTTP/1.1" 200 25953
+2019-10-07 22:03:09,765 INFO     image #4	https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/10/26/17/aaron-taylor-johnson-1.jpg?w968h681
+2019-10-07 22:03:09,771 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:03:09,860 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMzE5MzI0MzY2OF5BMl5BanBnXkFtZTgwODE3MTk4MTE@._V1_.jpg HTTP/1.1" 200 226657
+2019-10-07 22:03:09,907 INFO     image #5	https://m.media-amazon.com/images/M/MV5BMzE5MzI0MzY2OF5BMl5BanBnXkFtZTgwODE3MTk4MTE@._V1_.jpg
+2019-10-07 22:03:09,913 DEBUG    Starting new HTTPS connection (1): ca-times.brightspotcdn.com:443
+2019-10-07 22:03:10,026 DEBUG    https://ca-times.brightspotcdn.com:443 "GET /dims4/default/b3109cc/2147483647/strip/true/crop/1024x682+0+0/resize/840x559!/quality/90/?url=https%3A%2F%2Fca-times.brightspotcdn.com%2Fde%2F27%2Ff77de69b6257e38cf47df1429783%2Fla-ehowe-1479241910-snap-photo HTTP/1.1" 200 38267
+2019-10-07 22:03:10,032 INFO     image #6	https://ca-times.brightspotcdn.com/dims4/default/b3109cc/2147483647/strip/true/crop/1024x682+0+0/resize/840x559!/quality/90/?url=https%3A%2F%2Fca-times.brightspotcdn.com%2Fde%2F27%2Ff77de69b6257e38cf47df1429783%2Fla-ehowe-1479241910-snap-photo
+2019-10-07 22:03:10,038 DEBUG    Starting new HTTPS connection (1): cdn1.thr.com:443
+2019-10-07 22:03:10,191 DEBUG    https://cdn1.thr.com:443 "GET /sites/default/files/imagecache/landscape_928x523/2017/10/gettyimages-674193810-h_2017.jpg HTTP/1.1" 200 119288
+2019-10-07 22:03:10,216 INFO     image #7	https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/10/gettyimages-674193810-h_2017.jpg
+2019-10-07 22:03:10,222 DEBUG    Starting new HTTPS connection (1): pmcdeadline2.files.wordpress.com:443
+2019-10-07 22:03:10,305 DEBUG    https://pmcdeadline2.files.wordpress.com:443 "GET /2018/06/aaron-taylor-johnson.jpg?w=681&h=383&crop=1 HTTP/1.1" 200 173740
+2019-10-07 22:03:10,362 INFO     image #8	https://pmcdeadline2.files.wordpress.com/2018/06/aaron-taylor-johnson.jpg?w=681&h=383&crop=1
+2019-10-07 22:03:10,368 DEBUG    Starting new HTTPS connection (1): i.guim.co.uk:443
+2019-10-07 22:03:10,453 DEBUG    https://i.guim.co.uk:443 "GET /img/static/sys-images/Guardian/Pix/pictures/2015/4/23/1429790837429/Aaron-Taylor-Johnson-008.jpg?width=300&quality=85&auto=format&fit=max&s=bdeb204dd2716bb957c9e8acf1a5d3b0 HTTP/1.1" 200 8318
+2019-10-07 22:03:10,454 INFO     image #9	https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/4/23/1429790837429/Aaron-Taylor-Johnson-008.jpg?width=300&quality=85&auto=format&fit=max&s=bdeb204dd2716bb957c9e8acf1a5d3b0
+2019-10-07 22:03:10,513 DEBUG    https://cdn1.thr.com:443 "GET /sites/default/files/imagecache/landscape_928x523/2017/01/thr_aaron_taylor-johnson_nocturnal_animals_arg3517.jpg HTTP/1.1" 200 61027
+2019-10-07 22:03:10,519 INFO     image #10	https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/01/thr_aaron_taylor-johnson_nocturnal_animals_arg3517.jpg
+2019-10-07 22:03:10,525 DEBUG    Starting new HTTPS connection (1): www.indiewire.com:443
+2019-10-07 22:03:10,601 DEBUG    https://www.indiewire.com:443 "GET /wp-content/uploads/2018/09/shutterstock_9309712z.jpg?w=780 HTTP/1.1" 200 76702
+2019-10-07 22:03:10,614 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:03:10,614 INFO     thread downloader-001 exit
+2019-10-07 22:03:10,998 INFO     Crawling task done!
+2019-10-07 22:03:10,999 INFO     Finish crawling
+2019-10-07 22:03:11,932 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:03:11,933 INFO     thread parser-001 exit
+2019-10-07 22:03:19,041 INFO     Starting crawl to Abigail Breslin
+2019-10-07 22:03:19,042 INFO     start crawling...
+2019-10-07 22:03:19,042 INFO     starting 1 feeder threads...
+2019-10-07 22:03:19,043 DEBUG    thread feeder-001 started
+2019-10-07 22:03:19,043 DEBUG    put url to url_queue: https://www.google.com/search?q=Abigail+Breslin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:19,043 INFO     thread feeder-001 exit
+2019-10-07 22:03:19,043 INFO     starting 1 parser threads...
+2019-10-07 22:03:19,044 DEBUG    thread parser-001 started
+2019-10-07 22:03:19,044 DEBUG    start fetching page https://www.google.com/search?q=Abigail+Breslin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:19,044 INFO     starting 1 downloader threads...
+2019-10-07 22:03:19,045 DEBUG    thread downloader-001 started
+2019-10-07 22:03:19,048 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:03:19,553 DEBUG    https://www.google.com:443 "GET /search?q=Abigail+Breslin&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:03:19,569 INFO     parsing result page https://www.google.com/search?q=Abigail+Breslin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:19,647 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:03:20,401 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/1/1b/Abigail_Breslin_by_Gage_Skidmore.jpg HTTP/1.1" 200 2197366
+2019-10-07 22:03:21,468 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/1/1b/Abigail_Breslin_by_Gage_Skidmore.jpg
+2019-10-07 22:03:21,472 DEBUG    Starting new HTTPS connection (1): townsquare.media:443
+2019-10-07 22:03:22,416 DEBUG    https://townsquare.media:443 "GET /site/252/files/2017/04/abigail-breslin-sexual-assault.jpg?w=980&q=75 HTTP/1.1" 200 78514
+2019-10-07 22:03:22,624 INFO     image #2	https://townsquare.media/site/252/files/2017/04/abigail-breslin-sexual-assault.jpg?w=980&q=75
+2019-10-07 22:03:22,629 DEBUG    Starting new HTTPS connection (1): pmcvariety.files.wordpress.com:443
+2019-10-07 22:03:22,701 DEBUG    https://pmcvariety.files.wordpress.com:443 "GET /2019/07/abigail-breslin.jpg?w=1000 HTTP/1.1" 200 291604
+2019-10-07 22:03:22,765 INFO     image #3	https://pmcvariety.files.wordpress.com/2019/07/abigail-breslin.jpg?w=1000
+2019-10-07 22:03:22,771 DEBUG    Starting new HTTP connection (1): br.web.img3.acsta.net:80
+2019-10-07 22:03:23,337 DEBUG    http://br.web.img3.acsta.net:80 "GET /r_640_360/newsv7/19/07/29/22/52/0100421.jpg HTTP/1.1" 200 39521
+2019-10-07 22:03:23,464 INFO     image #4	http://br.web.img3.acsta.net/r_640_360/newsv7/19/07/29/22/52/0100421.jpg
+2019-10-07 22:03:23,469 DEBUG    Starting new HTTPS connection (1): s3.r29static.com:443
+2019-10-07 22:03:23,745 DEBUG    https://s3.r29static.com:443 "GET /bin/entry/3b8/720x900,85/1782164/image.webp HTTP/1.1" 200 123216
+2019-10-07 22:03:23,783 DEBUG    Importing BlpImagePlugin
+2019-10-07 22:03:23,785 DEBUG    Importing BmpImagePlugin
+2019-10-07 22:03:23,785 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 22:03:23,786 DEBUG    Importing CurImagePlugin
+2019-10-07 22:03:23,787 DEBUG    Importing DcxImagePlugin
+2019-10-07 22:03:23,789 DEBUG    Importing DdsImagePlugin
+2019-10-07 22:03:23,790 DEBUG    Importing EpsImagePlugin
+2019-10-07 22:03:23,792 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 22:03:23,793 DEBUG    Importing FliImagePlugin
+2019-10-07 22:03:23,794 DEBUG    Importing FpxImagePlugin
+2019-10-07 22:03:23,795 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 22:03:23,795 DEBUG    Importing FtexImagePlugin
+2019-10-07 22:03:23,796 DEBUG    Importing GbrImagePlugin
+2019-10-07 22:03:23,797 DEBUG    Importing GifImagePlugin
+2019-10-07 22:03:23,797 DEBUG    Importing GribStubImagePlugin
+2019-10-07 22:03:23,798 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 22:03:23,798 DEBUG    Importing IcnsImagePlugin
+2019-10-07 22:03:23,800 DEBUG    Importing IcoImagePlugin
+2019-10-07 22:03:23,802 DEBUG    Importing ImImagePlugin
+2019-10-07 22:03:23,803 DEBUG    Importing ImtImagePlugin
+2019-10-07 22:03:23,805 DEBUG    Importing IptcImagePlugin
+2019-10-07 22:03:23,806 DEBUG    Importing JpegImagePlugin
+2019-10-07 22:03:23,806 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 22:03:23,806 DEBUG    Importing McIdasImagePlugin
+2019-10-07 22:03:23,807 DEBUG    Importing MicImagePlugin
+2019-10-07 22:03:23,808 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 22:03:23,808 DEBUG    Importing MpegImagePlugin
+2019-10-07 22:03:23,809 DEBUG    Importing MpoImagePlugin
+2019-10-07 22:03:23,810 DEBUG    Importing MspImagePlugin
+2019-10-07 22:03:23,811 DEBUG    Importing PalmImagePlugin
+2019-10-07 22:03:23,812 DEBUG    Importing PcdImagePlugin
+2019-10-07 22:03:23,812 DEBUG    Importing PcxImagePlugin
+2019-10-07 22:03:23,813 DEBUG    Importing PdfImagePlugin
+2019-10-07 22:03:23,823 DEBUG    Importing PixarImagePlugin
+2019-10-07 22:03:23,824 DEBUG    Importing PngImagePlugin
+2019-10-07 22:03:23,824 DEBUG    Importing PpmImagePlugin
+2019-10-07 22:03:23,824 DEBUG    Importing PsdImagePlugin
+2019-10-07 22:03:23,824 DEBUG    Importing SgiImagePlugin
+2019-10-07 22:03:23,825 DEBUG    Importing SpiderImagePlugin
+2019-10-07 22:03:23,825 DEBUG    Importing SunImagePlugin
+2019-10-07 22:03:23,826 DEBUG    Importing TgaImagePlugin
+2019-10-07 22:03:23,826 DEBUG    Importing TiffImagePlugin
+2019-10-07 22:03:23,826 DEBUG    Importing WebPImagePlugin
+2019-10-07 22:03:23,827 DEBUG    Importing WmfImagePlugin
+2019-10-07 22:03:23,828 DEBUG    Importing XbmImagePlugin
+2019-10-07 22:03:23,829 DEBUG    Importing XpmImagePlugin
+2019-10-07 22:03:23,830 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 22:03:23,832 INFO     image #5	https://s3.r29static.com/bin/entry/3b8/720x900,85/1782164/image.webp
+2019-10-07 22:03:23,834 DEBUG    Starting new HTTPS connection (1): vignette.wikia.nocookie.net:443
+2019-10-07 22:03:23,940 DEBUG    https://vignette.wikia.nocookie.net:443 "GET /unbreakablemovie/images/5/5a/2B2C175100000578-0-image-a-17_1438939323288.jpg/revision/latest?cb=20170901182406 HTTP/1.1" 200 95373
+2019-10-07 22:03:23,979 INFO     image #6	https://vignette.wikia.nocookie.net/unbreakablemovie/images/5/5a/2B2C175100000578-0-image-a-17_1438939323288.jpg/revision/latest?cb=20170901182406
+2019-10-07 22:03:23,984 DEBUG    Starting new HTTPS connection (1): abrilmdemulher.files.wordpress.com:443
+2019-10-07 22:03:24,092 DEBUG    https://abrilmdemulher.files.wordpress.com:443 "GET /2017/04/abigail-breslin1.jpg HTTP/1.1" 200 104767
+2019-10-07 22:03:24,140 INFO     image #7	https://abrilmdemulher.files.wordpress.com/2017/04/abigail-breslin1.jpg
+2019-10-07 22:03:24,145 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:03:24,229 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMzU5MTA5MzYzOF5BMl5BanBnXkFtZTcwODc4OTIxNw@@._V1_.jpg HTTP/1.1" 200 857204
+2019-10-07 22:03:24,387 INFO     image #8	https://m.media-amazon.com/images/M/MV5BMzU5MTA5MzYzOF5BMl5BanBnXkFtZTcwODc4OTIxNw@@._V1_.jpg
+2019-10-07 22:03:24,393 DEBUG    Starting new HTTPS connection (1): imagesvc.meredithcorp.io:443
+2019-10-07 22:03:24,506 DEBUG    https://imagesvc.meredithcorp.io:443 "GET /v3/mm/image?url=https%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2018%2F05%2F051018-breslin-mothers-day-lead.jpg%3Fitok%3DdfOvrYBy&w=400&c=sc&poi=face&q=85 HTTP/1.1" 200 None
+2019-10-07 22:03:24,518 INFO     image #9	https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-img.instyle.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F684xflex%2Fpublic%2Fimages%2F2018%2F05%2F051018-breslin-mothers-day-lead.jpg%3Fitok%3DdfOvrYBy&w=400&c=sc&poi=face&q=85
+2019-10-07 22:03:24,523 DEBUG    Starting new HTTPS connection (1): hips.hearstapps.com:443
+2019-10-07 22:03:24,620 DEBUG    https://hips.hearstapps.com:443 "GET /ell.h-cdn.co/assets/cm/15/02/54ae42b7e9764_-_elle-abigail-breslin-de.jpg HTTP/1.1" 200 29532
+2019-10-07 22:03:24,646 INFO     image #10	https://hips.hearstapps.com/ell.h-cdn.co/assets/cm/15/02/54ae42b7e9764_-_elle-abigail-breslin-de.jpg
+2019-10-07 22:03:24,651 DEBUG    Starting new HTTP connection (1): br.web.img2.acsta.net:80
+2019-10-07 22:03:25,944 DEBUG    http://br.web.img2.acsta.net:80 "GET /pictures/19/09/12/03/18/1278033.jpg HTTP/1.1" 200 None
+2019-10-07 22:03:27,200 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:03:27,201 INFO     thread downloader-001 exit
+2019-10-07 22:03:28,055 INFO     Crawling task done!
+2019-10-07 22:03:28,056 INFO     Finish crawling
+2019-10-07 22:03:28,731 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:03:28,731 INFO     thread parser-001 exit
+2019-10-07 22:03:35,022 INFO     Starting crawl to Adam Sandler
+2019-10-07 22:03:35,023 INFO     start crawling...
+2019-10-07 22:03:35,023 INFO     starting 1 feeder threads...
+2019-10-07 22:03:35,024 DEBUG    thread feeder-001 started
+2019-10-07 22:03:35,024 DEBUG    put url to url_queue: https://www.google.com/search?q=Adam+Sandler&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:35,024 INFO     starting 1 parser threads...
+2019-10-07 22:03:35,024 INFO     thread feeder-001 exit
+2019-10-07 22:03:35,025 DEBUG    thread parser-001 started
+2019-10-07 22:03:35,025 DEBUG    start fetching page https://www.google.com/search?q=Adam+Sandler&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:35,025 INFO     starting 1 downloader threads...
+2019-10-07 22:03:35,026 DEBUG    thread downloader-001 started
+2019-10-07 22:03:35,029 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:03:35,709 DEBUG    https://www.google.com:443 "GET /search?q=Adam+Sandler&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:03:35,729 INFO     parsing result page https://www.google.com/search?q=Adam+Sandler&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:35,808 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:03:36,476 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/4/40/Adam_Sandler_Cannes_2017.jpg/250px-Adam_Sandler_Cannes_2017.jpg HTTP/1.1" 200 24597
+2019-10-07 22:03:36,632 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adam_Sandler_Cannes_2017.jpg/250px-Adam_Sandler_Cannes_2017.jpg
+2019-10-07 22:03:36,635 DEBUG    Starting new HTTP connection (1): br.web.img3.acsta.net:80
+2019-10-07 22:03:37,022 DEBUG    http://br.web.img3.acsta.net:80 "GET /c_215_290/pictures/17/06/20/16/57/103535.jpg HTTP/1.1" 200 10438
+2019-10-07 22:03:37,028 INFO     image #2	http://br.web.img3.acsta.net/c_215_290/pictures/17/06/20/16/57/103535.jpg
+2019-10-07 22:03:37,264 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/7/7b/AdamSandlerHWoFFeb11.jpg/195px-AdamSandlerHWoFFeb11.jpg HTTP/1.1" 200 11018
+2019-10-07 22:03:37,431 INFO     image #3	https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/AdamSandlerHWoFFeb11.jpg/195px-AdamSandlerHWoFFeb11.jpg
+2019-10-07 22:03:37,436 DEBUG    Starting new HTTPS connection (1): www.hypeness.com.br:443
+2019-10-07 22:03:38,393 DEBUG    https://www.hypeness.com.br:443 "GET /wp-content/uploads/2019/09/Adam_Sandler_Oscar_1.jpg HTTP/1.1" 200 150770
+2019-10-07 22:03:38,904 INFO     image #4	https://www.hypeness.com.br/wp-content/uploads/2019/09/Adam_Sandler_Oscar_1.jpg
+2019-10-07 22:03:38,908 DEBUG    Starting new HTTPS connection (1): cdn.britannica.com:443
+2019-10-07 22:03:39,130 DEBUG    https://cdn.britannica.com:443 "GET /24/157824-050-D8E9E191/Adam-Sandler-2011.jpg HTTP/1.1" 200 41167
+2019-10-07 22:03:39,142 INFO     image #5	https://cdn.britannica.com/24/157824-050-D8E9E191/Adam-Sandler-2011.jpg
+2019-10-07 22:03:39,147 DEBUG    Starting new HTTPS connection (1): midiastm.gazetaonline.com.br:443
+2019-10-07 22:03:39,550 DEBUG    https://midiastm.gazetaonline.com.br:443 "GET /_midias/jpg/2019/07/23/adam_sandler-6239683.jpg HTTP/1.1" 200 243130
+2019-10-07 22:03:39,609 INFO     image #6	https://midiastm.gazetaonline.com.br/_midias/jpg/2019/07/23/adam_sandler-6239683.jpg
+2019-10-07 22:03:39,615 DEBUG    Starting new HTTPS connection (1): cinepop.com.br:443
+2019-10-07 22:03:40,859 DEBUG    https://cinepop.com.br:443 "GET /wp-content/uploads/2019/09/uncut-gems-1-750x380.jpg HTTP/1.1" 301 162
+2019-10-07 22:03:40,862 DEBUG    Starting new HTTPS connection (1): cdn.cinepop.com.br:443
+2019-10-07 22:03:42,484 DEBUG    https://cdn.cinepop.com.br:443 "GET /2019/09/uncut-gems-1-750x380.jpg HTTP/1.1" 200 29651
+2019-10-07 22:03:42,490 INFO     image #7	https://cinepop.com.br/wp-content/uploads/2019/09/uncut-gems-1-750x380.jpg
+2019-10-07 22:03:42,495 DEBUG    Starting new HTTPS connection (1): specials-images.forbesimg.com:443
+2019-10-07 22:03:42,602 DEBUG    https://specials-images.forbesimg.com:443 "GET /imageserve/5d24f98e34a5c400084adc17/416x416.jpg?background=000000&cropX1=707&cropX2=3703&cropY1=0&cropY2=2995 HTTP/1.1" 200 24404
+2019-10-07 22:03:42,621 INFO     image #8	https://specials-images.forbesimg.com/imageserve/5d24f98e34a5c400084adc17/416x416.jpg?background=000000&cropX1=707&cropX2=3703&cropY1=0&cropY2=2995
+2019-10-07 22:03:42,626 DEBUG    Starting new HTTP connection (1): br.web.img2.acsta.net:80
+2019-10-07 22:03:43,079 DEBUG    http://br.web.img2.acsta.net:80 "GET /r_640_360/newsv7/19/07/22/23/11/2284577.jpg HTTP/1.1" 200 28098
+2019-10-07 22:03:43,309 INFO     image #9	http://br.web.img2.acsta.net/r_640_360/newsv7/19/07/22/23/11/2284577.jpg
+2019-10-07 22:03:43,314 DEBUG    Starting new HTTPS connection (1): toofab.akamaized.net:443
+2019-10-07 22:03:43,745 DEBUG    https://toofab.akamaized.net:443 "GET /2019/10/07/adam-sandler-daughters-main-getty-twitter-810x610.jpg HTTP/1.1" 200 114377
+2019-10-07 22:03:43,776 INFO     image #10	https://toofab.akamaized.net/2019/10/07/adam-sandler-daughters-main-getty-twitter-810x610.jpg
+2019-10-07 22:03:43,781 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:03:43,858 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMjQyNzM2MjM1Ml5BMl5BanBnXkFtZTcwMDE5NjI3Mg@@._V1_UY1200_CR117,0,630,1200_AL_.jpg HTTP/1.1" 200 53423
+2019-10-07 22:03:43,867 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:03:43,867 INFO     thread downloader-001 exit
+2019-10-07 22:03:44,036 INFO     Crawling task done!
+2019-10-07 22:03:44,036 INFO     Finish crawling
+2019-10-07 22:03:44,947 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:03:44,947 INFO     thread parser-001 exit
+2019-10-07 22:03:50,029 INFO     Starting crawl to Adele
+2019-10-07 22:03:50,030 INFO     start crawling...
+2019-10-07 22:03:50,030 INFO     starting 1 feeder threads...
+2019-10-07 22:03:50,031 DEBUG    thread feeder-001 started
+2019-10-07 22:03:50,031 DEBUG    put url to url_queue: https://www.google.com/search?q=Adele&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:50,031 INFO     starting 1 parser threads...
+2019-10-07 22:03:50,031 INFO     thread feeder-001 exit
+2019-10-07 22:03:50,031 DEBUG    thread parser-001 started
+2019-10-07 22:03:50,032 DEBUG    start fetching page https://www.google.com/search?q=Adele&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:50,032 INFO     starting 1 downloader threads...
+2019-10-07 22:03:50,033 DEBUG    thread downloader-001 started
+2019-10-07 22:03:50,036 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:03:50,747 DEBUG    https://www.google.com:443 "GET /search?q=Adele&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:03:50,767 INFO     parsing result page https://www.google.com/search?q=Adele&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:03:50,841 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:03:51,597 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/7/7c/Adele_2016.jpg HTTP/1.1" 200 943380
+2019-10-07 22:03:52,428 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/7/7c/Adele_2016.jpg
+2019-10-07 22:03:52,431 DEBUG    Starting new HTTPS connection (1): akns-images.eonline.com:443
+2019-10-07 22:03:53,852 DEBUG    https://akns-images.eonline.com:443 "GET /eol_images/Entire_Site/2018024/rs_1024x759-180124143107-1024-Adele-Grammy-Awards-Green-Dress.jpg?fit=inside%7C900:auto&output-quality=90 HTTP/1.1" 200 96385
+2019-10-07 22:03:53,998 INFO     image #2	https://akns-images.eonline.com/eol_images/Entire_Site/2018024/rs_1024x759-180124143107-1024-Adele-Grammy-Awards-Green-Dress.jpg?fit=inside|900:auto&output-quality=90
+2019-10-07 22:03:54,003 DEBUG    Starting new HTTPS connection (1): www.vagalume.com.br:443
+2019-10-07 22:03:59,252 DEBUG    https://www.vagalume.com.br:443 "GET /adele/images/adele.jpg HTTP/1.1" 200 36990
+2019-10-07 22:03:59,268 INFO     image #3	https://www.vagalume.com.br/adele/images/adele.jpg
+2019-10-07 22:03:59,271 DEBUG    Starting new HTTPS connection (1): i0.wp.com:443
+2019-10-07 22:03:59,338 DEBUG    https://i0.wp.com:443 "GET /br.nacaodamusica.com/wp-content/uploads/2016/08/adele.jpg HTTP/1.1" 200 28771
+2019-10-07 22:03:59,348 INFO     image #4	https://i0.wp.com/br.nacaodamusica.com/wp-content/uploads/2016/08/adele.jpg
+2019-10-07 22:03:59,351 DEBUG    Starting new HTTPS connection (1): p2.trrsf.com:443
+2019-10-07 22:04:00,285 DEBUG    https://p2.trrsf.com:443 "GET /image/fget/cf/460/0/images.terra.com/2013/05/03/adele-mini-tattoo-1getty.jpg HTTP/1.1" 200 27712
+2019-10-07 22:04:00,356 INFO     image #5	https://p2.trrsf.com/image/fget/cf/460/0/images.terra.com/2013/05/03/adele-mini-tattoo-1getty.jpg
+2019-10-07 22:04:00,361 DEBUG    Starting new HTTPS connection (1): timedotcom.files.wordpress.com:443
+2019-10-07 22:04:00,476 DEBUG    https://timedotcom.files.wordpress.com:443 "GET /2016/01/time-100-2016-adele-adkins1.jpg HTTP/1.1" 200 1822046
+2019-10-07 22:04:00,781 INFO     image #6	https://timedotcom.files.wordpress.com/2016/01/time-100-2016-adele-adkins1.jpg
+2019-10-07 22:04:00,789 DEBUG    Starting new HTTPS connection (1): f.i.uol.com.br:443
+2019-10-07 22:04:00,915 DEBUG    https://f.i.uol.com.br:443 "GET /fotografia/2019/04/20/15557617825cbb0a76857a1_1555761782_3x2_md.jpg HTTP/1.1" 200 40871
+2019-10-07 22:04:00,938 INFO     image #7	https://f.i.uol.com.br/fotografia/2019/04/20/15557617825cbb0a76857a1_1555761782_3x2_md.jpg
+2019-10-07 22:04:00,944 DEBUG    Starting new HTTPS connection (1): www.meridionalfm.com.br:443
+2019-10-07 22:04:01,356 DEBUG    https://www.meridionalfm.com.br:443 "GET /file/2019/01/Adele.jpg HTTP/1.1" 200 163344
+2019-10-07 22:04:01,411 INFO     image #8	https://www.meridionalfm.com.br/file/2019/01/Adele.jpg
+2019-10-07 22:04:01,433 DEBUG    https://timedotcom.files.wordpress.com:443 "GET /2015/12/adele-pop-music-star-returns-spotlight.jpg?quality=85 HTTP/1.1" 200 623189
+2019-10-07 22:04:01,526 INFO     image #9	https://timedotcom.files.wordpress.com/2015/12/adele-pop-music-star-returns-spotlight.jpg?quality=85
+2019-10-07 22:04:02,659 DEBUG    https://akns-images.eonline.com:443 "GET /eol_images/Entire_Site/2019228/rs_634x1024-190328054718-634-Adele-J1R-32819.jpg?fit=inside%7C900:auto&output-quality=90 HTTP/1.1" 200 103281
+2019-10-07 22:04:02,890 INFO     image #10	https://akns-images.eonline.com/eol_images/Entire_Site/2019228/rs_634x1024-190328054718-634-Adele-J1R-32819.jpg?fit=inside|900:auto&output-quality=90
+2019-10-07 22:04:02,894 DEBUG    Starting new HTTPS connection (1): i.ytimg.com:443
+2019-10-07 22:04:03,001 DEBUG    https://i.ytimg.com:443 "GET /vi/YQHsXMglC9A/maxresdefault.jpg HTTP/1.1" 200 44335
+2019-10-07 22:04:03,014 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:04:03,015 INFO     thread downloader-001 exit
+2019-10-07 22:04:03,047 INFO     Crawling task done!
+2019-10-07 22:04:03,048 INFO     Finish crawling
+2019-10-07 22:04:03,893 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:04:03,894 INFO     thread parser-001 exit
+2019-10-07 22:04:22,748 INFO     Starting crawl to Adriana Barraza
+2019-10-07 22:04:22,749 INFO     start crawling...
+2019-10-07 22:04:22,749 INFO     starting 1 feeder threads...
+2019-10-07 22:04:22,749 DEBUG    thread feeder-001 started
+2019-10-07 22:04:22,750 DEBUG    put url to url_queue: https://www.google.com/search?q=Adriana+Barraza&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:04:22,750 INFO     thread feeder-001 exit
+2019-10-07 22:04:22,750 INFO     starting 1 parser threads...
+2019-10-07 22:04:22,750 DEBUG    thread parser-001 started
+2019-10-07 22:04:22,751 DEBUG    start fetching page https://www.google.com/search?q=Adriana+Barraza&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:04:22,751 INFO     starting 1 downloader threads...
+2019-10-07 22:04:22,752 DEBUG    thread downloader-001 started
+2019-10-07 22:04:22,755 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:04:24,059 DEBUG    https://www.google.com:443 "GET /search?q=Adriana+Barraza&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:04:24,078 INFO     parsing result page https://www.google.com/search?q=Adriana+Barraza&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:04:24,144 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:04:24,981 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/0/05/Adriana_Barraza_adj.jpg HTTP/1.1" 200 2875214
+2019-10-07 22:04:26,540 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/0/05/Adriana_Barraza_adj.jpg
+2019-10-07 22:04:26,545 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:04:27,337 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTI4NzE3MTYzNV5BMl5BanBnXkFtZTcwNTIwNzIzMQ@@._V1_UY1200_CR83,0,630,1200_AL_.jpg HTTP/1.1" 200 60909
+2019-10-07 22:04:27,547 INFO     image #2	https://m.media-amazon.com/images/M/MV5BMTI4NzE3MTYzNV5BMl5BanBnXkFtZTcwNTIwNzIzMQ@@._V1_UY1200_CR83,0,630,1200_AL_.jpg
+2019-10-07 22:04:27,552 DEBUG    Starting new HTTP connection (1): br.web.img2.acsta.net:80
+2019-10-07 22:04:28,156 DEBUG    http://br.web.img2.acsta.net:80 "GET /pictures/19/08/28/00/00/5603073.jpg HTTP/1.1" 200 None
+2019-10-07 22:04:29,446 INFO     image #3	http://br.web.img2.acsta.net/pictures/19/08/28/00/00/5603073.jpg
+2019-10-07 22:04:29,451 DEBUG    Starting new HTTPS connection (1): www.hellomagazine.com:443
+2019-10-07 22:04:30,585 DEBUG    https://www.hellomagazine.com:443 "GET /imagenes/profiles/adriana-barraza/6165-adriana-barraza.jpg HTTP/1.1" 200 58605
+2019-10-07 22:04:30,602 INFO     image #4	https://www.hellomagazine.com/imagenes/profiles/adriana-barraza/6165-adriana-barraza.jpg
+2019-10-07 22:04:30,607 DEBUG    Starting new HTTP connection (1): www2.pictures.zimbio.com:80
+2019-10-07 22:04:31,028 DEBUG    http://www2.pictures.zimbio.com:80 "GET /gi/Adriana+Barraza+6_ypMEGr7qom.jpg HTTP/1.1" 200 21542
+2019-10-07 22:04:31,040 INFO     image #5	http://www2.pictures.zimbio.com/gi/Adriana+Barraza+6_ypMEGr7qom.jpg
+2019-10-07 22:04:31,045 DEBUG    Starting new HTTPS connection (1): playitagaindan.files.wordpress.com:443
+2019-10-07 22:04:32,077 DEBUG    https://playitagaindan.files.wordpress.com:443 "GET /2014/12/adriana-barraza.png?w=1024&h=666&crop=1 HTTP/1.1" 200 694868
+2019-10-07 22:04:32,519 DEBUG    STREAM b'IHDR' 16 13
+2019-10-07 22:04:32,520 DEBUG    STREAM b'caNv' 41 16
+2019-10-07 22:04:32,520 DEBUG    b'caNv' 41 16 (unknown)
+2019-10-07 22:04:32,520 DEBUG    STREAM b'oFFs' 69 9
+2019-10-07 22:04:32,520 DEBUG    b'oFFs' 69 9 (unknown)
+2019-10-07 22:04:32,520 DEBUG    STREAM b'IDAT' 90 524288
+2019-10-07 22:04:32,521 INFO     image #6	https://playitagaindan.files.wordpress.com/2014/12/adriana-barraza.png?w=1024&h=666&crop=1
+2019-10-07 22:04:32,526 DEBUG    Starting new HTTPS connection (1): alchetron.com:443
+2019-10-07 22:04:33,469 DEBUG    https://alchetron.com:443 "GET /cdn/adriana-barraza-3ebc7c9f-be7b-4285-9180-f9afb504af0-resize-750.jpeg HTTP/1.1" 200 64994
+2019-10-07 22:04:33,731 INFO     image #7	https://alchetron.com/cdn/adriana-barraza-3ebc7c9f-be7b-4285-9180-f9afb504af0-resize-750.jpeg
+2019-10-07 22:04:33,736 DEBUG    Starting new HTTP connection (1): www3.pictures.zimbio.com:80
+2019-10-07 22:04:34,093 DEBUG    http://www3.pictures.zimbio.com:80 "GET /gi/Adriana+Barraza+Im86nDtXLkzm.jpg HTTP/1.1" 200 25912
+2019-10-07 22:04:34,104 INFO     image #8	http://www3.pictures.zimbio.com/gi/Adriana+Barraza+Im86nDtXLkzm.jpg
+2019-10-07 22:04:34,110 DEBUG    Starting new HTTPS connection (1): d13ezvd6yrslxm.cloudfront.net:443
+2019-10-07 22:04:35,630 DEBUG    https://d13ezvd6yrslxm.cloudfront.net:443 "GET /wp/wp-content/images/zz5725dd70.jpg HTTP/1.1" 200 None
+2019-10-07 22:04:35,836 INFO     image #9	https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/zz5725dd70.jpg
+2019-10-07 22:04:35,841 DEBUG    Starting new HTTPS connection (1): pmcdeadline2.files.wordpress.com:443
+2019-10-07 22:04:36,462 DEBUG    https://pmcdeadline2.files.wordpress.com:443 "GET /2019/03/adriana-barraza-penny-dreadful.jpg?w=630&h=383&crop=1 HTTP/1.1" 200 95643
+2019-10-07 22:04:36,498 INFO     image #10	https://pmcdeadline2.files.wordpress.com/2019/03/adriana-barraza-penny-dreadful.jpg?w=630&h=383&crop=1
+2019-10-07 22:04:36,503 DEBUG    Starting new HTTP connection (1): ethnicelebs.com:80
+2019-10-07 22:04:37,115 DEBUG    http://ethnicelebs.com:80 "GET /wp-content/uploads/2018/01/ALO-057675-Adriana-Barraza-400x501.jpg HTTP/1.1" 200 34708
+2019-10-07 22:04:37,370 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:04:37,370 INFO     thread downloader-001 exit
+2019-10-07 22:04:37,767 INFO     Crawling task done!
+2019-10-07 22:04:37,768 INFO     Finish crawling
+2019-10-07 22:04:39,981 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:04:39,981 INFO     thread parser-001 exit
+2019-10-07 22:04:45,512 INFO     Starting crawl to Adrianne Palicki
+2019-10-07 22:04:45,513 INFO     start crawling...
+2019-10-07 22:04:45,513 INFO     starting 1 feeder threads...
+2019-10-07 22:04:45,513 DEBUG    thread feeder-001 started
+2019-10-07 22:04:45,514 DEBUG    put url to url_queue: https://www.google.com/search?q=Adrianne+Palicki&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:04:45,514 INFO     starting 1 parser threads...
+2019-10-07 22:04:45,514 INFO     thread feeder-001 exit
+2019-10-07 22:04:45,514 DEBUG    thread parser-001 started
+2019-10-07 22:04:45,515 DEBUG    start fetching page https://www.google.com/search?q=Adrianne+Palicki&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:04:45,515 INFO     starting 1 downloader threads...
+2019-10-07 22:04:45,516 DEBUG    thread downloader-001 started
+2019-10-07 22:04:45,519 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:04:46,076 DEBUG    https://www.google.com:443 "GET /search?q=Adrianne+Palicki&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:04:46,087 INFO     parsing result page https://www.google.com/search?q=Adrianne+Palicki&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:04:46,153 DEBUG    Starting new HTTPS connection (1): s.yimg.com:443
+2019-10-07 22:04:46,228 DEBUG    https://s.yimg.com:443 "GET /ny/api/res/1.2/KE36gdVwPu1V6mxy1XBHrQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzY4O2g9NjE0/https://media.zenfs.com/en-US/the_knot_667/244ac7d6675a7fb9dfeacc5215a231aa HTTP/1.1" 200 81526
+2019-10-07 22:04:46,277 INFO     image #1	https://s.yimg.com/ny/api/res/1.2/KE36gdVwPu1V6mxy1XBHrQ--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NzY4O2g9NjE0/https://media.zenfs.com/en-US/the_knot_667/244ac7d6675a7fb9dfeacc5215a231aa
+2019-10-07 22:04:46,280 DEBUG    Starting new HTTPS connection (1): akns-images.eonline.com:443
+2019-10-07 22:04:48,329 DEBUG    https://akns-images.eonline.com:443 "GET /eol_images/Entire_Site/2019018/rs_634x1024-190118063215-634-Scott-Grimes-Adrianne-Palicki-Comic-Con-2018-LT-011819-GettyImages-1003537640.jpg?fit=inside%7C900:auto&output-quality=90 HTTP/1.1" 200 74024
+2019-10-07 22:04:48,422 INFO     image #2	https://akns-images.eonline.com/eol_images/Entire_Site/2019018/rs_634x1024-190118063215-634-Scott-Grimes-Adrianne-Palicki-Comic-Con-2018-LT-011819-GettyImages-1003537640.jpg?fit=inside|900:auto&output-quality=90
+2019-10-07 22:04:48,427 DEBUG    Starting new HTTPS connection (1): pmctvline2.files.wordpress.com:443
+2019-10-07 22:04:48,527 DEBUG    https://pmctvline2.files.wordpress.com:443 "GET /2019/01/orville-season-2-adrianne-palicki.jpg?w=620 HTTP/1.1" 200 197041
+2019-10-07 22:04:48,606 INFO     image #3	https://pmctvline2.files.wordpress.com/2019/01/orville-season-2-adrianne-palicki.jpg?w=620
+2019-10-07 22:04:48,612 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:04:49,658 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/b/b2/Adrianne_Palicki_%28cropped%29.jpg/220px-Adrianne_Palicki_%28cropped%29.jpg HTTP/1.1" 200 22081
+2019-10-07 22:04:49,661 INFO     image #4	https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Adrianne_Palicki_%28cropped%29.jpg/220px-Adrianne_Palicki_%28cropped%29.jpg
+2019-10-07 22:04:49,664 DEBUG    Starting new HTTPS connection (1): i.ytimg.com:443
+2019-10-07 22:04:49,828 DEBUG    https://i.ytimg.com:443 "GET /vi/n-4G_-glL1Q/maxresdefault.jpg HTTP/1.1" 200 95502
+2019-10-07 22:04:49,864 INFO     image #5	https://i.ytimg.com/vi/n-4G_-glL1Q/maxresdefault.jpg
+2019-10-07 22:04:49,869 DEBUG    Starting new HTTPS connection (1): peopledotcom.files.wordpress.com:443
+2019-10-07 22:04:49,965 DEBUG    https://peopledotcom.files.wordpress.com:443 "GET /2019/07/gettyimages-1144954945.jpg HTTP/1.1" 200 856779
+2019-10-07 22:04:50,131 INFO     image #6	https://peopledotcom.files.wordpress.com/2019/07/gettyimages-1144954945.jpg
+2019-10-07 22:04:50,137 DEBUG    Starting new HTTPS connection (1): hips.hearstapps.com:443
+2019-10-07 22:04:55,248 DEBUG    https://hips.hearstapps.com:443 "GET /cosmouk.cdnds.net/cm/14/30/53d48c6f9db5c_-_260313-adrianne-palicki-lgn.jpg HTTP/1.1" 200 41213
+2019-10-07 22:04:55,273 INFO     image #7	https://hips.hearstapps.com/cosmouk.cdnds.net/cm/14/30/53d48c6f9db5c_-_260313-adrianne-palicki-lgn.jpg
+2019-10-07 22:04:55,279 DEBUG    Starting new HTTPS connection (1): i.pinimg.com:443
+2019-10-07 22:04:56,008 DEBUG    https://i.pinimg.com:443 "GET /originals/d7/9d/8a/d79d8abc892855f978403ba2d778e327.jpg HTTP/1.1" 200 121123
+2019-10-07 22:04:56,049 INFO     image #8	https://i.pinimg.com/originals/d7/9d/8a/d79d8abc892855f978403ba2d778e327.jpg
+2019-10-07 22:04:56,212 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/8/8a/Adrianne_Palicki_2013.jpg/250px-Adrianne_Palicki_2013.jpg HTTP/1.1" 200 30600
+2019-10-07 22:04:56,350 INFO     image #9	https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Adrianne_Palicki_2013.jpg/250px-Adrianne_Palicki_2013.jpg
+2019-10-07 22:04:56,355 DEBUG    Starting new HTTPS connection (1): media.vanityfair.com:443
+2019-10-07 22:04:56,459 DEBUG    https://media.vanityfair.com:443 "GET /photos/59dfa6a56145eb7f2c240518/3:2/w_1998,h_1332,c_limit/t-Adrianne-Palicki-Interview.jpg HTTP/1.1" 200 407261
+2019-10-07 22:04:56,577 INFO     image #10	https://media.vanityfair.com/photos/59dfa6a56145eb7f2c240518/3:2/w_1998,h_1332,c_limit/t-Adrianne-Palicki-Interview.jpg
+2019-10-07 22:04:56,580 DEBUG    Starting new HTTP connection (1): br.web.img2.acsta.net:80
+2019-10-07 22:04:57,442 DEBUG    http://br.web.img2.acsta.net:80 "GET /pictures/17/07/25/14/54/301498.jpg HTTP/1.1" 200 None
+2019-10-07 22:04:58,003 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:04:58,004 INFO     thread downloader-001 exit
+2019-10-07 22:04:58,530 INFO     Crawling task done!
+2019-10-07 22:04:58,531 INFO     Finish crawling
+2019-10-07 22:04:58,852 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:04:58,853 INFO     thread parser-001 exit
+2019-10-07 22:05:13,996 INFO     Starting crawl to Adrien Brody
+2019-10-07 22:05:13,996 INFO     start crawling...
+2019-10-07 22:05:13,999 INFO     starting 1 feeder threads...
+2019-10-07 22:05:13,999 DEBUG    thread feeder-001 started
+2019-10-07 22:05:14,000 DEBUG    put url to url_queue: https://www.google.com/search?q=Adrien+Brody&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:14,000 INFO     thread feeder-001 exit
+2019-10-07 22:05:14,000 INFO     starting 1 parser threads...
+2019-10-07 22:05:14,000 DEBUG    thread parser-001 started
+2019-10-07 22:05:14,001 DEBUG    start fetching page https://www.google.com/search?q=Adrien+Brody&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:14,001 INFO     starting 1 downloader threads...
+2019-10-07 22:05:14,002 DEBUG    thread downloader-001 started
+2019-10-07 22:05:14,005 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:05:14,748 DEBUG    https://www.google.com:443 "GET /search?q=Adrien+Brody&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:05:14,764 INFO     parsing result page https://www.google.com/search?q=Adrien+Brody&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:14,832 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:05:15,567 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/b/b3/Adrien_Brody_Cannes_2017.jpg HTTP/1.1" 200 31915
+2019-10-07 22:05:15,790 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/b/b3/Adrien_Brody_Cannes_2017.jpg
+2019-10-07 22:05:15,793 DEBUG    Starting new HTTPS connection (1): cdnph.upi.com:443
+2019-10-07 22:05:16,796 DEBUG    https://cdnph.upi.com:443 "GET /svc/sv/upi/9181490351154/2017/1/0063690c3cfa386e4200b91c46532fc0/Adrien-Brody-joins-Season-4-cast-of-Peaky-Blinders.jpg HTTP/1.1" 200 52816
+2019-10-07 22:05:17,145 INFO     image #2	https://cdnph.upi.com/svc/sv/upi/9181490351154/2017/1/0063690c3cfa386e4200b91c46532fc0/Adrien-Brody-joins-Season-4-cast-of-Peaky-Blinders.jpg
+2019-10-07 22:05:17,149 DEBUG    Starting new HTTPS connection (1): nyppagesix.files.wordpress.com:443
+2019-10-07 22:05:17,249 DEBUG    https://nyppagesix.files.wordpress.com:443 "GET /2018/08/adrien-brody.jpg?quality=90&strip=all&w=618&h=410&crop=1 HTTP/1.1" 200 53085
+2019-10-07 22:05:17,269 INFO     image #3	https://nyppagesix.files.wordpress.com/2018/08/adrien-brody.jpg?quality=90&strip=all&w=618&h=410&crop=1
+2019-10-07 22:05:17,411 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/5/59/Adrien_Brody_Cannes_2013.jpg/250px-Adrien_Brody_Cannes_2013.jpg HTTP/1.1" 200 15289
+2019-10-07 22:05:17,456 INFO     image #4	https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Adrien_Brody_Cannes_2013.jpg/250px-Adrien_Brody_Cannes_2013.jpg
+2019-10-07 22:05:17,461 DEBUG    Starting new HTTPS connection (1): www.indiewire.com:443
+2019-10-07 22:05:17,574 DEBUG    https://www.indiewire.com:443 "GET /wp-content/uploads/2017/08/shutterstock_8983909t.jpg?w=780 HTTP/1.1" 200 64938
+2019-10-07 22:05:17,589 INFO     image #5	https://www.indiewire.com/wp-content/uploads/2017/08/shutterstock_8983909t.jpg?w=780
+2019-10-07 22:05:17,594 DEBUG    Starting new HTTPS connection (1): cinepop.com.br:443
+2019-10-07 22:05:18,841 DEBUG    https://cinepop.com.br:443 "GET /wp-content/uploads/2017/03/Adrien-Brody_1-750x380.jpg HTTP/1.1" 301 162
+2019-10-07 22:05:18,846 DEBUG    Starting new HTTPS connection (1): cdn.cinepop.com.br:443
+2019-10-07 22:05:20,379 DEBUG    https://cdn.cinepop.com.br:443 "GET /2017/03/Adrien-Brody_1-750x380.jpg HTTP/1.1" 200 24373
+2019-10-07 22:05:20,381 INFO     image #6	https://cinepop.com.br/wp-content/uploads/2017/03/Adrien-Brody_1-750x380.jpg
+2019-10-07 22:05:20,789 DEBUG    https://cdnph.upi.com:443 "GET /svc/sv/upi/6221567177635/2019/1/087a37175a624b1e9d633a55fc4dc2f4/Adrien-Brody-Bobby-Cannavale-join-Marilyn-Monroe-film-Blonde.jpg HTTP/1.1" 200 42734
+2019-10-07 22:05:21,183 INFO     image #7	https://cdnph.upi.com/svc/sv/upi/6221567177635/2019/1/087a37175a624b1e9d633a55fc4dc2f4/Adrien-Brody-Bobby-Cannavale-join-Marilyn-Monroe-film-Blonde.jpg
+2019-10-07 22:05:21,186 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:05:21,269 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMjI3ODkxMjU3OF5BMl5BanBnXkFtZTgwMTk2Njk3MTE@._V1_.jpg HTTP/1.1" 200 619525
+2019-10-07 22:05:21,378 INFO     image #8	https://m.media-amazon.com/images/M/MV5BMjI3ODkxMjU3OF5BMl5BanBnXkFtZTgwMTk2Njk3MTE@._V1_.jpg
+2019-10-07 22:05:21,383 DEBUG    Starting new HTTPS connection (1): i.ytimg.com:443
+2019-10-07 22:05:21,541 DEBUG    https://i.ytimg.com:443 "GET /vi/XgNo9-iUNV4/maxresdefault.jpg HTTP/1.1" 200 64679
+2019-10-07 22:05:21,572 INFO     image #9	https://i.ytimg.com/vi/XgNo9-iUNV4/maxresdefault.jpg
+2019-10-07 22:05:21,577 DEBUG    Starting new HTTP connection (1): anthem-uploads.s3.amazonaws.com:80
+2019-10-07 22:05:22,017 DEBUG    http://anthem-uploads.s3.amazonaws.com:80 "GET /wp-content/uploads/brody.jpg HTTP/1.1" 200 258292
+2019-10-07 22:05:25,806 INFO     image #10	http://anthem-uploads.s3.amazonaws.com/wp-content/uploads/brody.jpg
+2019-10-07 22:05:25,836 DEBUG    https://nyppagesix.files.wordpress.com:443 "GET /2015/11/490948186.jpg?quality=90&strip=all&w=618&h=410&crop=1 HTTP/1.1" 200 48914
+2019-10-07 22:05:25,856 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:05:25,856 INFO     thread downloader-001 exit
+2019-10-07 22:05:26,016 INFO     Crawling task done!
+2019-10-07 22:05:26,016 INFO     Finish crawling
+2019-10-07 22:05:27,295 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:05:27,295 INFO     thread parser-001 exit
+2019-10-07 22:05:33,265 INFO     Starting crawl to Al Pacino
+2019-10-07 22:05:33,266 INFO     start crawling...
+2019-10-07 22:05:33,266 INFO     starting 1 feeder threads...
+2019-10-07 22:05:33,266 DEBUG    thread feeder-001 started
+2019-10-07 22:05:33,267 DEBUG    put url to url_queue: https://www.google.com/search?q=Al+Pacino&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:33,267 INFO     starting 1 parser threads...
+2019-10-07 22:05:33,267 INFO     thread feeder-001 exit
+2019-10-07 22:05:33,267 DEBUG    thread parser-001 started
+2019-10-07 22:05:33,268 DEBUG    start fetching page https://www.google.com/search?q=Al+Pacino&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:33,268 INFO     starting 1 downloader threads...
+2019-10-07 22:05:33,269 DEBUG    thread downloader-001 started
+2019-10-07 22:05:33,273 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:05:33,996 DEBUG    https://www.google.com:443 "GET /search?q=Al+Pacino&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:05:34,013 INFO     parsing result page https://www.google.com/search?q=Al+Pacino&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:34,093 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:05:34,817 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/9/98/Al_Pacino.jpg/250px-Al_Pacino.jpg HTTP/1.1" 200 23306
+2019-10-07 22:05:34,985 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Al_Pacino.jpg/250px-Al_Pacino.jpg
+2019-10-07 22:05:34,988 DEBUG    Starting new HTTP connection (1): br.web.img2.acsta.net:80
+2019-10-07 22:05:35,639 DEBUG    http://br.web.img2.acsta.net:80 "GET /pictures/19/03/19/18/33/1337912.jpg HTTP/1.1" 200 1064397
+2019-10-07 22:05:38,679 INFO     image #2	http://br.web.img2.acsta.net/pictures/19/03/19/18/33/1337912.jpg
+2019-10-07 22:05:38,682 DEBUG    Starting new HTTPS connection (1): www.aprovincia.com.br:443
+2019-10-07 22:05:39,528 DEBUG    https://www.aprovincia.com.br:443 "GET /core/wp-content/uploads/2018/05/al-pacino.jpg HTTP/1.1" 200 104066
+2019-10-07 22:05:39,773 INFO     image #3	https://www.aprovincia.com.br/core/wp-content/uploads/2018/05/al-pacino.jpg
+2019-10-07 22:05:39,779 DEBUG    Starting new HTTPS connection (1): www.biography.com:443
+2019-10-07 22:05:39,879 DEBUG    https://www.biography.com:443 "GET /.image/t_share/MTE5NTU2MzE2MzM3MTEyNTg3/al-pacino-9431474-1-402.jpg HTTP/1.1" 200 210103
+2019-10-07 22:05:39,936 INFO     image #4	https://www.biography.com/.image/t_share/MTE5NTU2MzE2MzM3MTEyNTg3/al-pacino-9431474-1-402.jpg
+2019-10-07 22:05:39,942 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:05:40,019 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTQzMzg1ODAyNl5BMl5BanBnXkFtZTYwMjAxODQ1._V1_UY1200_CR84,0,630,1200_AL_.jpg HTTP/1.1" 200 49831
+2019-10-07 22:05:40,032 INFO     image #5	https://m.media-amazon.com/images/M/MV5BMTQzMzg1ODAyNl5BMl5BanBnXkFtZTYwMjAxODQ1._V1_UY1200_CR84,0,630,1200_AL_.jpg
+2019-10-07 22:05:40,244 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/d/d6/Al_Pacino_Cannes_1996.jpg/220px-Al_Pacino_Cannes_1996.jpg HTTP/1.1" 200 11488
+2019-10-07 22:05:40,245 INFO     image #6	https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Al_Pacino_Cannes_1996.jpg/220px-Al_Pacino_Cannes_1996.jpg
+2019-10-07 22:05:40,247 DEBUG    Starting new HTTPS connection (1): quartaparedepop.com.br:443
+2019-10-07 22:05:40,860 DEBUG    https://quartaparedepop.com.br:443 "GET /wp-content/uploads/2019/01/al-pacino-752x440.jpg HTTP/1.1" 200 36863
+2019-10-07 22:05:40,864 INFO     image #7	https://quartaparedepop.com.br/wp-content/uploads/2019/01/al-pacino-752x440.jpg
+2019-10-07 22:05:40,869 DEBUG    Starting new HTTPS connection (1): lookaside.fbsbx.com:443
+2019-10-07 22:05:41,071 DEBUG    https://lookaside.fbsbx.com:443 "GET /lookaside/crawler/media/?media_id=46709202172 HTTP/1.1" 302 0
+2019-10-07 22:05:41,078 DEBUG    Starting new HTTPS connection (1): www.facebook.com:443
+2019-10-07 22:05:41,371 DEBUG    https://www.facebook.com:443 "GET /46709202172/photos/a.436766602172/10153818178587173/?type=3&is_lookaside=1 HTTP/1.1" 200 None
+2019-10-07 22:05:41,662 DEBUG    Importing BlpImagePlugin
+2019-10-07 22:05:41,663 DEBUG    Importing BmpImagePlugin
+2019-10-07 22:05:41,664 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 22:05:41,665 DEBUG    Importing CurImagePlugin
+2019-10-07 22:05:41,666 DEBUG    Importing DcxImagePlugin
+2019-10-07 22:05:41,668 DEBUG    Importing DdsImagePlugin
+2019-10-07 22:05:41,669 DEBUG    Importing EpsImagePlugin
+2019-10-07 22:05:41,671 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 22:05:41,672 DEBUG    Importing FliImagePlugin
+2019-10-07 22:05:41,673 DEBUG    Importing FpxImagePlugin
+2019-10-07 22:05:41,674 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 22:05:41,674 DEBUG    Importing FtexImagePlugin
+2019-10-07 22:05:41,675 DEBUG    Importing GbrImagePlugin
+2019-10-07 22:05:41,676 DEBUG    Importing GifImagePlugin
+2019-10-07 22:05:41,676 DEBUG    Importing GribStubImagePlugin
+2019-10-07 22:05:41,677 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 22:05:41,678 DEBUG    Importing IcnsImagePlugin
+2019-10-07 22:05:41,680 DEBUG    Importing IcoImagePlugin
+2019-10-07 22:05:41,682 DEBUG    Importing ImImagePlugin
+2019-10-07 22:05:41,684 DEBUG    Importing ImtImagePlugin
+2019-10-07 22:05:41,685 DEBUG    Importing IptcImagePlugin
+2019-10-07 22:05:41,686 DEBUG    Importing JpegImagePlugin
+2019-10-07 22:05:41,687 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 22:05:41,687 DEBUG    Importing McIdasImagePlugin
+2019-10-07 22:05:41,687 DEBUG    Importing MicImagePlugin
+2019-10-07 22:05:41,688 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 22:05:41,688 DEBUG    Importing MpegImagePlugin
+2019-10-07 22:05:41,689 DEBUG    Importing MpoImagePlugin
+2019-10-07 22:05:41,690 DEBUG    Importing MspImagePlugin
+2019-10-07 22:05:41,690 DEBUG    Importing PalmImagePlugin
+2019-10-07 22:05:41,692 DEBUG    Importing PcdImagePlugin
+2019-10-07 22:05:41,692 DEBUG    Importing PcxImagePlugin
+2019-10-07 22:05:41,692 DEBUG    Importing PdfImagePlugin
+2019-10-07 22:05:41,709 DEBUG    Importing PixarImagePlugin
+2019-10-07 22:05:41,709 DEBUG    Importing PngImagePlugin
+2019-10-07 22:05:41,709 DEBUG    Importing PpmImagePlugin
+2019-10-07 22:05:41,709 DEBUG    Importing PsdImagePlugin
+2019-10-07 22:05:41,710 DEBUG    Importing SgiImagePlugin
+2019-10-07 22:05:41,710 DEBUG    Importing SpiderImagePlugin
+2019-10-07 22:05:41,711 DEBUG    Importing SunImagePlugin
+2019-10-07 22:05:41,711 DEBUG    Importing TgaImagePlugin
+2019-10-07 22:05:41,712 DEBUG    Importing TiffImagePlugin
+2019-10-07 22:05:41,712 DEBUG    Importing WebPImagePlugin
+2019-10-07 22:05:41,713 DEBUG    Importing WmfImagePlugin
+2019-10-07 22:05:41,714 DEBUG    Importing XbmImagePlugin
+2019-10-07 22:05:41,715 DEBUG    Importing XpmImagePlugin
+2019-10-07 22:05:41,716 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 22:05:41,720 DEBUG    Starting new HTTPS connection (1): ca-times.brightspotcdn.com:443
+2019-10-07 22:05:41,838 DEBUG    https://ca-times.brightspotcdn.com:443 "GET /dims4/default/831c6c9/2147483647/strip/true/crop/2048x1365+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fca-times.brightspotcdn.com%2F48%2Ff9%2F323abcf91726d4bfc01ac2aed81e%2F2367517-ca-1113-al-pacino-04-rrd-jpg-20150114 HTTP/1.1" 200 92410
+2019-10-07 22:05:41,867 INFO     image #8	https://ca-times.brightspotcdn.com/dims4/default/831c6c9/2147483647/strip/true/crop/2048x1365+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fca-times.brightspotcdn.com%2F48%2Ff9%2F323abcf91726d4bfc01ac2aed81e%2F2367517-ca-1113-al-pacino-04-rrd-jpg-20150114
+2019-10-07 22:05:41,873 DEBUG    Starting new HTTPS connection (1): media.fstatic.com:443
+2019-10-07 22:05:41,975 DEBUG    https://media.fstatic.com:443 "GET /2FEjIkv-3tzcc6FTIs0Kut3FX8E=/210x312/smart/media/artists/avatar/2013/12/al-pacino_a13502_1.jpg HTTP/1.1" 200 12620
+2019-10-07 22:05:41,978 INFO     image #9	https://media.fstatic.com/2FEjIkv-3tzcc6FTIs0Kut3FX8E=/210x312/smart/media/artists/avatar/2013/12/al-pacino_a13502_1.jpg
+2019-10-07 22:05:41,983 DEBUG    Starting new HTTP connection (1): www.cineset.com.br:80
+2019-10-07 22:05:42,898 DEBUG    http://www.cineset.com.br:80 "GET /wp-content/uploads/2018/01/Al-Pacino.jpg HTTP/1.1" 200 67213
+2019-10-07 22:05:43,049 INFO     image #10	http://www.cineset.com.br/wp-content/uploads/2018/01/Al-Pacino.jpg
+2019-10-07 22:05:43,057 DEBUG    Starting new HTTPS connection (1): rollingstone.uol.com.br:443
+2019-10-07 22:05:43,181 DEBUG    https://rollingstone.uol.com.br:443 "GET /media/_versions/legacy/2013/img-1015903-al-pacino_widelg.jpg HTTP/1.1" 200 59855
+2019-10-07 22:05:43,199 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:05:43,199 INFO     thread downloader-001 exit
+2019-10-07 22:05:43,279 INFO     Crawling task done!
+2019-10-07 22:05:43,279 INFO     Finish crawling
+2019-10-07 22:05:44,143 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:05:44,144 INFO     thread parser-001 exit
+2019-10-07 22:05:50,928 INFO     Starting crawl to Alan Alda
+2019-10-07 22:05:50,929 INFO     start crawling...
+2019-10-07 22:05:50,929 INFO     starting 1 feeder threads...
+2019-10-07 22:05:50,929 DEBUG    thread feeder-001 started
+2019-10-07 22:05:50,930 DEBUG    put url to url_queue: https://www.google.com/search?q=Alan+Alda&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:50,930 INFO     starting 1 parser threads...
+2019-10-07 22:05:50,930 INFO     thread feeder-001 exit
+2019-10-07 22:05:50,930 DEBUG    thread parser-001 started
+2019-10-07 22:05:50,931 DEBUG    start fetching page https://www.google.com/search?q=Alan+Alda&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:50,931 INFO     starting 1 downloader threads...
+2019-10-07 22:05:50,932 DEBUG    thread downloader-001 started
+2019-10-07 22:05:50,935 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:05:51,711 DEBUG    https://www.google.com:443 "GET /search?q=Alan+Alda&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:05:51,728 INFO     parsing result page https://www.google.com/search?q=Alan+Alda&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:05:51,802 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:05:52,635 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/3/3f/Alan_Alda_by_Bridget_Laudien_%28cropped%29.jpg HTTP/1.1" 200 96393
+2019-10-07 22:05:53,108 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/3/3f/Alan_Alda_by_Bridget_Laudien_%28cropped%29.jpg
+2019-10-07 22:05:53,112 DEBUG    Starting new HTTPS connection (1): s.abcnews.com:443
+2019-10-07 22:05:54,273 DEBUG    https://s.abcnews.com:443 "GET /images/US/alan-alda1-ap-ml-180731_hpMain_4x3_992.jpg HTTP/1.1" 200 77877
+2019-10-07 22:05:54,494 INFO     image #2	https://s.abcnews.com/images/US/alan-alda1-ap-ml-180731_hpMain_4x3_992.jpg
+2019-10-07 22:05:54,499 DEBUG    Starting new HTTPS connection (1): cdn1.thr.com:443
+2019-10-07 22:05:54,661 DEBUG    https://cdn1.thr.com:443 "GET /sites/default/files/imagecache/landscape_928x523/2019/01/20181025_0023_f-h_2019_thr.jpg HTTP/1.1" 200 50243
+2019-10-07 22:05:54,668 INFO     image #3	https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2019/01/20181025_0023_f-h_2019_thr.jpg
+2019-10-07 22:05:54,887 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/9/9e/Alan_Alda_circa_1960s.JPG/220px-Alan_Alda_circa_1960s.JPG HTTP/1.1" 200 9343
+2019-10-07 22:05:54,889 INFO     image #4	https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Alan_Alda_circa_1960s.JPG/220px-Alan_Alda_circa_1960s.JPG
+2019-10-07 22:05:54,894 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:05:54,978 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTE5NDM1NjkyMV5BMl5BanBnXkFtZTYwNDA3NjQz._V1_UY1200_CR123,0,630,1200_AL_.jpg HTTP/1.1" 200 42091
+2019-10-07 22:05:54,992 INFO     image #5	https://m.media-amazon.com/images/M/MV5BMTE5NDM1NjkyMV5BMl5BanBnXkFtZTYwNDA3NjQz._V1_UY1200_CR123,0,630,1200_AL_.jpg
+2019-10-07 22:05:54,997 DEBUG    Starting new HTTPS connection (1): media-manager.noticiasaominuto.com.br:443
+2019-10-07 22:05:55,502 DEBUG    https://media-manager.noticiasaominuto.com.br:443 "GET /1920/naom_5b6094211d63b.jpg HTTP/1.1" 200 None
+2019-10-07 22:05:56,115 INFO     image #6	https://media-manager.noticiasaominuto.com.br/1920/naom_5b6094211d63b.jpg
+2019-10-07 22:05:56,120 DEBUG    Starting new HTTPS connection (1): images2.minutemediacdn.com:443
+2019-10-07 22:05:56,985 DEBUG    https://images2.minutemediacdn.com:443 "GET /image/upload/c_crop,h_1428,w_2536,x_0,y_0/f_auto,q_auto,w_1100/v1554745883/shape/mentalfloss/555245-gettyimages-3419581-1.png HTTP/1.1" 200 53414
+2019-10-07 22:05:57,204 INFO     image #7	https://images2.minutemediacdn.com/image/upload/c_crop,h_1428,w_2536,x_0,y_0/f_auto,q_auto,w_1100/v1554745883/shape/mentalfloss/555245-gettyimages-3419581-1.png
+2019-10-07 22:05:57,210 DEBUG    Starting new HTTPS connection (1): www.sbs.com.au:443
+2019-10-07 22:05:59,188 DEBUG    https://www.sbs.com.au:443 "GET /movies/sites/sbs.com.au.film/files/styles/full/public/alan-alda_1280.jpg?itok=4u2QndH4 HTTP/1.1" 200 34028
+2019-10-07 22:05:59,197 INFO     image #8	https://www.sbs.com.au/movies/sites/sbs.com.au.film/files/styles/full/public/alan-alda_1280.jpg?itok=4u2QndH4
+2019-10-07 22:05:59,203 DEBUG    Starting new HTTPS connection (1): www.biography.com:443
+2019-10-07 22:05:59,274 DEBUG    https://www.biography.com:443 "GET /.image/t_share/MTM2MTYzNjA2NDIwMDIyNzIz/alan_alda_mash_cbs_photofestjpg.jpg HTTP/1.1" 200 299577
+2019-10-07 22:05:59,344 INFO     image #9	https://www.biography.com/.image/t_share/MTM2MTYzNjA2NDIwMDIyNzIz/alan_alda_mash_cbs_photofestjpg.jpg
+2019-10-07 22:05:59,350 DEBUG    Starting new HTTP connection (1): www.nab.org:80
+2019-10-07 22:06:00,523 DEBUG    http://www.nab.org:80 "GET /documents/newsroom/photos/alda_hi.jpg HTTP/1.1" 200 22572673
+2019-10-07 22:07:05,446 INFO     image #10	http://www.nab.org/documents/newsroom/photos/alda_hi.jpg
+2019-10-07 22:07:05,469 DEBUG    Starting new HTTPS connection (1): storage.googleapis.com:443
+2019-10-07 22:07:05,953 DEBUG    https://storage.googleapis.com:443 "GET /afs-prod/media/media:5dacc79111dc4f5b8fcb3ac009a98e28/800.jpeg HTTP/1.1" 200 68902
+2019-10-07 22:07:05,974 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:07:05,974 INFO     thread downloader-001 exit
+2019-10-07 22:07:06,016 INFO     Crawling task done!
+2019-10-07 22:07:06,016 INFO     Finish crawling
+2019-10-07 22:07:06,581 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:07:06,581 INFO     thread parser-001 exit
+2019-10-07 22:07:15,850 INFO     Starting crawl to Alan Arkin
+2019-10-07 22:07:15,851 INFO     start crawling...
+2019-10-07 22:07:15,851 INFO     starting 1 feeder threads...
+2019-10-07 22:07:15,852 DEBUG    thread feeder-001 started
+2019-10-07 22:07:15,852 DEBUG    put url to url_queue: https://www.google.com/search?q=Alan+Arkin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:15,852 INFO     starting 1 parser threads...
+2019-10-07 22:07:15,852 INFO     thread feeder-001 exit
+2019-10-07 22:07:15,853 DEBUG    thread parser-001 started
+2019-10-07 22:07:15,853 DEBUG    start fetching page https://www.google.com/search?q=Alan+Arkin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:15,853 INFO     starting 1 downloader threads...
+2019-10-07 22:07:15,854 DEBUG    thread downloader-001 started
+2019-10-07 22:07:15,857 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:07:16,545 DEBUG    https://www.google.com:443 "GET /search?q=Alan+Arkin&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:07:16,556 INFO     parsing result page https://www.google.com/search?q=Alan+Arkin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:16,629 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:07:17,408 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/7/75/AlanArkinTIFFSept2012_%28cropped%29.jpg/250px-AlanArkinTIFFSept2012_%28cropped%29.jpg HTTP/1.1" 200 24153
+2019-10-07 22:07:17,660 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/AlanArkinTIFFSept2012_%28cropped%29.jpg/250px-AlanArkinTIFFSept2012_%28cropped%29.jpg
+2019-10-07 22:07:17,663 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:07:17,748 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMjA4NDk5Njc3MF5BMl5BanBnXkFtZTYwNjc5NDc0._V1_UY1200_CR106,0,630,1200_AL_.jpg HTTP/1.1" 200 49761
+2019-10-07 22:07:17,763 INFO     image #2	https://m.media-amazon.com/images/M/MV5BMjA4NDk5Njc3MF5BMl5BanBnXkFtZTYwNjc5NDc0._V1_UY1200_CR106,0,630,1200_AL_.jpg
+2019-10-07 22:07:17,768 DEBUG    Starting new HTTPS connection (1): pmcvariety.files.wordpress.com:443
+2019-10-07 22:07:18,456 DEBUG    https://pmcvariety.files.wordpress.com:443 "GET /2019/06/alan-arkin-walk-of-fame-honor.jpg?w=1000 HTTP/1.1" 200 318037
+2019-10-07 22:07:20,327 INFO     image #3	https://pmcvariety.files.wordpress.com/2019/06/alan-arkin-walk-of-fame-honor.jpg?w=1000
+2019-10-07 22:07:20,331 DEBUG    Starting new HTTPS connection (1): www.goldenglobes.com:443
+2019-10-07 22:07:21,212 DEBUG    https://www.goldenglobes.com:443 "GET /sites/default/files/styles/portrait_medium/public/people/cover_images/alan_arkin-gettyimages-73198290.jpg?itok=wWW8VmGb&c=7068d1285b7024ea3db6b6b571953950 HTTP/1.1" 200 36056
+2019-10-07 22:07:21,323 INFO     image #4	https://www.goldenglobes.com/sites/default/files/styles/portrait_medium/public/people/cover_images/alan_arkin-gettyimages-73198290.jpg?itok=wWW8VmGb&c=7068d1285b7024ea3db6b6b571953950
+2019-10-07 22:07:21,328 DEBUG    Starting new HTTP connection (1): 3.bp.blogspot.com:80
+2019-10-07 22:07:21,719 DEBUG    http://3.bp.blogspot.com:80 "GET /_uiarJGT9bk8/TEmedNkTLBI/AAAAAAAABDA/uRMCmDIaCrk/s1600/arkinmain.jpg HTTP/1.1" 200 19918
+2019-10-07 22:07:21,771 INFO     image #5	http://3.bp.blogspot.com/_uiarJGT9bk8/TEmedNkTLBI/AAAAAAAABDA/uRMCmDIaCrk/s1600/arkinmain.jpg
+2019-10-07 22:07:21,776 DEBUG    Starting new HTTPS connection (1): www.goldderby.com:443
+2019-10-07 22:07:22,349 DEBUG    https://www.goldderby.com:443 "GET /wp-content/uploads/2019/03/Alan-Arkin-Movies-Ranked.jpg?w=620&h=360&crop=1 HTTP/1.1" 200 18708
+2019-10-07 22:07:22,351 INFO     image #6	https://www.goldderby.com/wp-content/uploads/2019/03/Alan-Arkin-Movies-Ranked.jpg?w=620&h=360&crop=1
+2019-10-07 22:07:22,644 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BNDA5MTM0ZjgtY2EzOC00NWMwLWIzZGYtMTAwOTI2YWM3YmY3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,967_AL_.jpg HTTP/1.1" 200 250935
+2019-10-07 22:07:23,023 INFO     image #7	https://m.media-amazon.com/images/M/MV5BNDA5MTM0ZjgtY2EzOC00NWMwLWIzZGYtMTAwOTI2YWM3YmY3XkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_SX1777_CR0,0,1777,967_AL_.jpg
+2019-10-07 22:07:23,028 DEBUG    Starting new HTTPS connection (1): www.melhoresfilmes.com.br:443
+2019-10-07 22:07:24,077 DEBUG    https://www.melhoresfilmes.com.br:443 "GET /img/actors/6040.jpg HTTP/1.1" 200 232749
+2019-10-07 22:07:24,897 INFO     image #8	https://www.melhoresfilmes.com.br/img/actors/6040.jpg
+2019-10-07 22:07:24,903 DEBUG    Starting new HTTPS connection (1): toronto.citynews.ca:443
+2019-10-07 22:07:25,509 DEBUG    https://toronto.citynews.ca:443 "GET /wp-content/blogs.dir/sites/10/2018/11/NYET272-117_2018_174448.jpg HTTP/1.1" 200 66614
+2019-10-07 22:07:25,531 INFO     image #9	https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2018/11/NYET272-117_2018_174448.jpg
+2019-10-07 22:07:25,534 DEBUG    Starting new HTTP connection (1): www.wearemoviegeeks.com:80
+2019-10-07 22:07:26,637 DEBUG    http://www.wearemoviegeeks.com:80 "GET /wp-content/uploads/alan-arkin.jpg HTTP/1.1" 200 764422
+2019-10-07 22:07:28,686 INFO     image #10	http://www.wearemoviegeeks.com/wp-content/uploads/alan-arkin.jpg
+2019-10-07 22:07:28,690 DEBUG    Starting new HTTP connection (1): br.web.img3.acsta.net:80
+2019-10-07 22:07:29,504 DEBUG    http://br.web.img3.acsta.net:80 "GET /r_1280_720/medias/nmedia/18/87/41/11/19937830.jpg HTTP/1.1" 200 None
+2019-10-07 22:07:29,935 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:07:29,935 INFO     thread downloader-001 exit
+2019-10-07 22:07:30,872 INFO     Crawling task done!
+2019-10-07 22:07:30,873 INFO     Finish crawling
+2019-10-07 22:07:31,556 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:07:31,557 INFO     thread parser-001 exit
+2019-10-07 22:07:47,522 INFO     Starting crawl to Alan Rickman
+2019-10-07 22:07:47,522 INFO     start crawling...
+2019-10-07 22:07:47,523 INFO     starting 1 feeder threads...
+2019-10-07 22:07:47,523 DEBUG    thread feeder-001 started
+2019-10-07 22:07:47,523 DEBUG    put url to url_queue: https://www.google.com/search?q=Alan+Rickman&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:47,523 INFO     starting 1 parser threads...
+2019-10-07 22:07:47,524 INFO     thread feeder-001 exit
+2019-10-07 22:07:47,524 DEBUG    thread parser-001 started
+2019-10-07 22:07:47,524 DEBUG    start fetching page https://www.google.com/search?q=Alan+Rickman&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:47,525 INFO     starting 1 downloader threads...
+2019-10-07 22:07:47,525 DEBUG    thread downloader-001 started
+2019-10-07 22:07:47,529 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:07:47,832 DEBUG    https://www.google.com:443 "GET /search?q=Alan+Rickman&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:07:48,360 INFO     parsing result page https://www.google.com/search?q=Alan+Rickman&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:50,473 INFO     no more page urls for thread parser-001 to parse
+2019-10-07 22:07:50,473 INFO     thread parser-001 exit
+2019-10-07 22:07:52,525 INFO     no more download task for thread downloader-001
+2019-10-07 22:07:52,526 INFO     thread downloader-001 exit
+2019-10-07 22:07:52,530 INFO     Crawling task done!
+2019-10-07 22:07:52,531 INFO     Finish crawling
+2019-10-07 22:07:55,308 INFO     Starting crawl to Albert Brooks
+2019-10-07 22:07:55,309 INFO     start crawling...
+2019-10-07 22:07:55,309 INFO     starting 1 feeder threads...
+2019-10-07 22:07:55,309 DEBUG    thread feeder-001 started
+2019-10-07 22:07:55,310 DEBUG    put url to url_queue: https://www.google.com/search?q=Albert+Brooks&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:55,310 INFO     starting 1 parser threads...
+2019-10-07 22:07:55,310 INFO     thread feeder-001 exit
+2019-10-07 22:07:55,310 DEBUG    thread parser-001 started
+2019-10-07 22:07:55,311 DEBUG    start fetching page https://www.google.com/search?q=Albert+Brooks&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:55,311 INFO     starting 1 downloader threads...
+2019-10-07 22:07:55,312 DEBUG    thread downloader-001 started
+2019-10-07 22:07:55,316 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:07:56,023 DEBUG    https://www.google.com:443 "GET /search?q=Albert+Brooks&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:07:56,041 INFO     parsing result page https://www.google.com/search?q=Albert+Brooks&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:07:56,119 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:07:56,640 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTM4MzEwMTMxN15BMl5BanBnXkFtZTcwNTQwMTc2NQ@@._V1_.jpg HTTP/1.1" 200 671874
+2019-10-07 22:07:57,077 INFO     image #1	https://m.media-amazon.com/images/M/MV5BMTM4MzEwMTMxN15BMl5BanBnXkFtZTcwNTQwMTc2NQ@@._V1_.jpg
+2019-10-07 22:07:57,080 DEBUG    Starting new HTTPS connection (1): media.fstatic.com:443
+2019-10-07 22:07:57,971 DEBUG    https://media.fstatic.com:443 "GET /BKXTsoh-IGfHnsrRisgf2VaS9Ks=/full-fit-in/629x300/media/articles/main/2013/09/324ce193-de50-42ed-9d22-dc9fa9b60cd9.jpe HTTP/1.1" 200 193846
+2019-10-07 22:07:58,307 INFO     image #2	https://media.fstatic.com/BKXTsoh-IGfHnsrRisgf2VaS9Ks=/full-fit-in/629x300/media/articles/main/2013/09/324ce193-de50-42ed-9d22-dc9fa9b60cd9.jpe
+2019-10-07 22:07:58,311 DEBUG    Starting new HTTP connection (1): br.web.img3.acsta.net:80
+2019-10-07 22:07:59,213 DEBUG    http://br.web.img3.acsta.net:80 "GET /r_1280_720/medias/nmedia/18/87/42/18/19940435.jpg HTTP/1.1" 200 None
+2019-10-07 22:07:59,813 INFO     image #3	http://br.web.img3.acsta.net/r_1280_720/medias/nmedia/18/87/42/18/19940435.jpg
+2019-10-07 22:07:59,818 DEBUG    Starting new HTTPS connection (1): vz.cnwimg.com:443
+2019-10-07 22:08:00,759 DEBUG    https://vz.cnwimg.com:443 "GET /thumb-1200x/wp-content/uploads/2011/05/Albert-Brooks-e1526422862174.jpg HTTP/1.1" 200 153284
+2019-10-07 22:08:02,609 INFO     image #4	https://vz.cnwimg.com/thumb-1200x/wp-content/uploads/2011/05/Albert-Brooks-e1526422862174.jpg
+2019-10-07 22:08:02,613 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:08:03,503 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/5/52/Albert_Brooks_at_%27Drive%27_premiere_TIFF_9.10.11.jpg HTTP/1.1" 200 3805956
+2019-10-07 22:08:04,991 INFO     image #5	https://upload.wikimedia.org/wikipedia/commons/5/52/Albert_Brooks_at_%27Drive%27_premiere_TIFF_9.10.11.jpg
+2019-10-07 22:08:05,003 DEBUG    Starting new HTTPS connection (1): vignette.wikia.nocookie.net:443
+2019-10-07 22:08:06,061 DEBUG    https://vignette.wikia.nocookie.net:443 "GET /disney/images/e/ec/Albert_Brooks.jpg/revision/latest?cb=20180216025322 HTTP/1.1" 200 207275
+2019-10-07 22:08:06,132 INFO     image #6	https://vignette.wikia.nocookie.net/disney/images/e/ec/Albert_Brooks.jpg/revision/latest?cb=20180216025322
+2019-10-07 22:08:06,136 DEBUG    Starting new HTTP connection (1): metrograph.com:80
+2019-10-07 22:08:06,786 DEBUG    http://metrograph.com:80 "GET /uploads/series/albert_brooks-1535056227-404x216.jpg HTTP/1.1" 200 53710
+2019-10-07 22:08:06,923 INFO     image #7	http://metrograph.com/uploads/series/albert_brooks-1535056227-404x216.jpg
+2019-10-07 22:08:06,928 DEBUG    Starting new HTTPS connection (1): images.amcnetworks.com:443
+2019-10-07 22:08:07,289 DEBUG    https://images.amcnetworks.com:443 "GET /ifc.com/wp-content/uploads/2010/07/07162010_albertbrooks1.jpg HTTP/1.1" 200 15432
+2019-10-07 22:08:07,291 INFO     image #8	https://images.amcnetworks.com/ifc.com/wp-content/uploads/2010/07/07162010_albertbrooks1.jpg
+2019-10-07 22:08:07,296 DEBUG    Starting new HTTPS connection (1): d2ycltig8jwwee.cloudfront.net:443
+2019-10-07 22:08:08,004 DEBUG    https://d2ycltig8jwwee.cloudfront.net:443 "GET /features/162/fullwidth.384b4e29.jpg HTTP/1.1" 200 230711
+2019-10-07 22:08:08,306 INFO     image #9	https://d2ycltig8jwwee.cloudfront.net/features/162/fullwidth.384b4e29.jpg
+2019-10-07 22:08:08,311 DEBUG    Starting new HTTPS connection (1): static.tvgcdn.net:443
+2019-10-07 22:08:09,361 DEBUG    https://static.tvgcdn.net:443 "GET /rovi/showcards/feed/500/thumbs/31133500_1300x1733.jpg HTTP/1.1" 200 2060422
+2019-10-07 22:08:13,234 INFO     image #10	https://static.tvgcdn.net/rovi/showcards/feed/500/thumbs/31133500_1300x1733.jpg
+2019-10-07 22:08:13,243 DEBUG    Starting new HTTPS connection (1): www.indiewire.com:443
+2019-10-07 22:08:15,595 DEBUG    https://www.indiewire.com:443 "GET /wp-content/uploads/2016/06/screen-shot-2016-06-30-at-3-19-45-pm.png?w=780 HTTP/1.1" 200 385089
+2019-10-07 22:08:15,830 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:08:15,831 INFO     thread downloader-001 exit
+2019-10-07 22:08:16,335 INFO     Crawling task done!
+2019-10-07 22:08:16,336 INFO     Finish crawling
+2019-10-07 22:08:17,724 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:08:17,724 INFO     thread parser-001 exit
+2019-10-07 22:08:22,837 INFO     Starting crawl to Albert Finney
+2019-10-07 22:08:22,838 INFO     start crawling...
+2019-10-07 22:08:22,838 INFO     starting 1 feeder threads...
+2019-10-07 22:08:22,838 DEBUG    thread feeder-001 started
+2019-10-07 22:08:22,838 DEBUG    put url to url_queue: https://www.google.com/search?q=Albert+Finney&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:08:22,839 INFO     starting 1 parser threads...
+2019-10-07 22:08:22,839 INFO     thread feeder-001 exit
+2019-10-07 22:08:22,839 DEBUG    thread parser-001 started
+2019-10-07 22:08:22,839 DEBUG    start fetching page https://www.google.com/search?q=Albert+Finney&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:08:22,840 INFO     starting 1 downloader threads...
+2019-10-07 22:08:22,841 DEBUG    thread downloader-001 started
+2019-10-07 22:08:22,844 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:08:23,569 DEBUG    https://www.google.com:443 "GET /search?q=Albert+Finney&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:08:23,588 INFO     parsing result page https://www.google.com/search?q=Albert+Finney&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:08:23,666 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:08:24,492 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/0/0a/Albert_Finney_1966.jpg HTTP/1.1" 200 512680
+2019-10-07 22:08:25,354 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/0/0a/Albert_Finney_1966.jpg
+2019-10-07 22:08:25,357 DEBUG    Starting new HTTPS connection (1): cdn1.thr.com:443
+2019-10-07 22:08:26,437 DEBUG    https://cdn1.thr.com:443 "GET /sites/default/files/imagecache/landscape_928x523/2017/07/before_the_devil_knows_youre_dead_albert_finney.jpg HTTP/1.1" 200 50498
+2019-10-07 22:08:26,442 INFO     image #2	https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/07/before_the_devil_knows_youre_dead_albert_finney.jpg
+2019-10-07 22:08:26,444 DEBUG    Starting new HTTPS connection (1): static01.nyt.com:443
+2019-10-07 22:08:26,679 DEBUG    https://static01.nyt.com:443 "GET /images/2019/02/09/obituaries/09finney/xxfinney-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale HTTP/1.1" 200 108239
+2019-10-07 22:08:26,713 INFO     image #3	https://static01.nyt.com/images/2019/02/09/obituaries/09finney/xxfinney-articleLarge-v3.jpg?quality=75&auto=webp&disable=upscale
+2019-10-07 22:08:26,716 DEBUG    Starting new HTTP connection (1): opiniaoenoticia.com.br:80
+2019-10-07 22:08:27,571 DEBUG    http://opiniaoenoticia.com.br:80 "GET /wp-content/uploads/2019/02/Albert_Finney_1966b.jpg HTTP/1.1" 200 42789
+2019-10-07 22:08:27,892 INFO     image #4	http://opiniaoenoticia.com.br/wp-content/uploads/2019/02/Albert_Finney_1966b.jpg
+2019-10-07 22:08:27,897 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:08:27,994 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMjA5NzkzMjQ4MF5BMl5BanBnXkFtZTgwMzA0NzczNzM@._V1_.jpg HTTP/1.1" 200 401091
+2019-10-07 22:08:28,064 INFO     image #5	https://m.media-amazon.com/images/M/MV5BMjA5NzkzMjQ4MF5BMl5BanBnXkFtZTgwMzA0NzczNzM@._V1_.jpg
+2019-10-07 22:08:28,070 DEBUG    Starting new HTTPS connection (1): i0.wp.com:443
+2019-10-07 22:08:28,904 DEBUG    https://i0.wp.com:443 "GET /pipocamoderna.com.br/wp-content/uploads/2019/02/0_Finney-Albert-1968-800x772.jpg HTTP/1.1" 200 59884
+2019-10-07 22:08:28,919 INFO     image #6	https://i0.wp.com/pipocamoderna.com.br/wp-content/uploads/2019/02/0_Finney-Albert-1968-800x772.jpg
+2019-10-07 22:08:28,926 DEBUG    Starting new HTTPS connection (1): s2.glbimg.com:443
+2019-10-07 22:08:29,033 DEBUG    https://s2.glbimg.com:443 "GET /HlIfxHhyoR_eTCFnXkaG7UeL9b4=/0x0:1346x2100/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/3/B/qXQfIsSEao9ankHFHH1g/ap19039502981879.jpg HTTP/1.1" 200 214940
+2019-10-07 22:08:29,130 INFO     image #7	https://s2.glbimg.com/HlIfxHhyoR_eTCFnXkaG7UeL9b4=/0x0:1346x2100/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/3/B/qXQfIsSEao9ankHFHH1g/ap19039502981879.jpg
+2019-10-07 22:08:29,135 DEBUG    Starting new HTTPS connection (1): www.hojeemdia.com.br:443
+2019-10-07 22:08:29,400 DEBUG    https://www.hojeemdia.com.br:443 "GET /polopoly_fs/1.692517.1549641369!/image/image.PNG_gen/derivatives/landscape_300/image.PNG HTTP/1.1" 200 None
+2019-10-07 22:08:29,460 DEBUG    STREAM b'IHDR' 16 13
+2019-10-07 22:08:29,461 DEBUG    STREAM b'IDAT' 41 32768
+2019-10-07 22:08:29,461 INFO     image #8	https://www.hojeemdia.com.br/polopoly_fs/1.692517.1549641369!/image/image.PNG_gen/derivatives/landscape_300/image.PNG
+2019-10-07 22:08:29,470 DEBUG    Starting new HTTPS connection (1): i.ytimg.com:443
+2019-10-07 22:08:29,673 DEBUG    https://i.ytimg.com:443 "GET /vi/fF7rFi5V0sY/maxresdefault.jpg HTTP/1.1" 200 96733
+2019-10-07 22:08:29,734 INFO     image #9	https://i.ytimg.com/vi/fF7rFi5V0sY/maxresdefault.jpg
+2019-10-07 22:08:29,739 DEBUG    Starting new HTTPS connection (1): media.spiked-online.com:443
+2019-10-07 22:08:31,148 DEBUG    https://media.spiked-online.com:443 "GET /website/images/2019/02/11082000/albert-finney-800x480.jpg HTTP/1.1" 200 60378
+2019-10-07 22:08:31,341 INFO     image #10	https://media.spiked-online.com/website/images/2019/02/11082000/albert-finney-800x480.jpg
+2019-10-07 22:08:31,345 DEBUG    Starting new HTTPS connection (1): pmcvariety.files.wordpress.com:443
+2019-10-07 22:08:31,415 DEBUG    https://pmcvariety.files.wordpress.com:443 "GET /2019/02/albert-2.jpg?w=945 HTTP/1.1" 200 288316
+2019-10-07 22:08:31,482 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:08:31,483 INFO     thread downloader-001 exit
+2019-10-07 22:08:31,740 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:08:31,741 INFO     thread parser-001 exit
+2019-10-07 22:08:31,851 INFO     Crawling task done!
+2019-10-07 22:08:31,852 INFO     Finish crawling
+2019-10-07 22:08:39,692 INFO     Starting crawl to Alec Baldwin
+2019-10-07 22:08:39,693 INFO     start crawling...
+2019-10-07 22:08:39,693 INFO     starting 1 feeder threads...
+2019-10-07 22:08:39,693 DEBUG    thread feeder-001 started
+2019-10-07 22:08:39,694 DEBUG    put url to url_queue: https://www.google.com/search?q=Alec+Baldwin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:08:39,694 INFO     starting 1 parser threads...
+2019-10-07 22:08:39,694 INFO     thread feeder-001 exit
+2019-10-07 22:08:39,694 DEBUG    thread parser-001 started
+2019-10-07 22:08:39,695 DEBUG    start fetching page https://www.google.com/search?q=Alec+Baldwin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:08:39,695 INFO     starting 1 downloader threads...
+2019-10-07 22:08:39,696 DEBUG    thread downloader-001 started
+2019-10-07 22:08:39,699 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:08:40,467 DEBUG    https://www.google.com:443 "GET /search?q=Alec+Baldwin&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:08:40,481 INFO     parsing result page https://www.google.com/search?q=Alec+Baldwin&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:08:40,554 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:08:41,373 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/8/88/Alec_Baldwin_%2828246306070%29_%28cropped%29.jpg HTTP/1.1" 200 3425017
+2019-10-07 22:08:42,953 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/8/88/Alec_Baldwin_%2828246306070%29_%28cropped%29.jpg
+2019-10-07 22:08:43,128 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/7/71/Alec_Baldwin_by_Gage_Skidmore.jpg HTTP/1.1" 200 1893760
+2019-10-07 22:08:47,000 INFO     image #2	https://upload.wikimedia.org/wikipedia/commons/7/71/Alec_Baldwin_by_Gage_Skidmore.jpg
+2019-10-07 22:08:47,013 DEBUG    Starting new HTTPS connection (1): cbsnews1.cbsistatic.com:443
+2019-10-07 22:08:47,770 DEBUG    https://cbsnews1.cbsistatic.com:443 "GET /hub/i/2018/10/15/3c4d395b-3247-4679-9374-e996cb913e96/ap-18285587099388.jpg HTTP/1.1" 200 313610
+2019-10-07 22:08:49,681 INFO     image #3	https://cbsnews1.cbsistatic.com/hub/i/2018/10/15/3c4d395b-3247-4679-9374-e996cb913e96/ap-18285587099388.jpg
+2019-10-07 22:08:49,686 DEBUG    Starting new HTTPS connection (1): imagens3.ne10.uol.com.br:443
+2019-10-07 22:08:49,823 DEBUG    https://imagens3.ne10.uol.com.br:443 "GET /blogsne10/mundobit/uploads//2018/08/alec-baldwin-ok-820x480.jpg HTTP/1.1" 200 24731
+2019-10-07 22:08:49,825 INFO     image #4	https://imagens3.ne10.uol.com.br/blogsne10/mundobit/uploads//2018/08/alec-baldwin-ok-820x480.jpg
+2019-10-07 22:08:49,829 DEBUG    Starting new HTTPS connection (1): cdn.newsday.com:443
+2019-10-07 22:08:50,010 DEBUG    https://cdn.newsday.com:443 "GET /polopoly_fs/1.34948599.1565799605!/httpImage/image.jpg_gen/derivatives/landscape_768/image.jpg HTTP/1.1" 200 29661
+2019-10-07 22:08:50,023 INFO     image #5	https://cdn.newsday.com/polopoly_fs/1.34948599.1565799605!/httpImage/image.jpg_gen/derivatives/landscape_768/image.jpg
+2019-10-07 22:08:50,029 DEBUG    Starting new HTTPS connection (1): tercalivre.com.br:443
+2019-10-07 22:08:50,127 DEBUG    https://tercalivre.com.br:443 "GET /wp-content/uploads/2018/11/alec_baldwin_gettyimages-961220104_1280.jpg HTTP/1.1" 200 77904
+2019-10-07 22:08:50,146 INFO     image #6	https://tercalivre.com.br/wp-content/uploads/2018/11/alec_baldwin_gettyimages-961220104_1280.jpg
+2019-10-07 22:08:50,399 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/thumb/2/20/Alec_Baldwin_15th_Annual_Screen_Actors_Guild_Awards.jpg/220px-Alec_Baldwin_15th_Annual_Screen_Actors_Guild_Awards.jpg HTTP/1.1" 200 19610
+2019-10-07 22:08:50,401 INFO     image #7	https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Alec_Baldwin_15th_Annual_Screen_Actors_Guild_Awards.jpg/220px-Alec_Baldwin_15th_Annual_Screen_Actors_Guild_Awards.jpg
+2019-10-07 22:08:50,407 DEBUG    Starting new HTTPS connection (1): www.thewrap.com:443
+2019-10-07 22:08:51,423 DEBUG    https://www.thewrap.com:443 "GET /wp-content/uploads/2018/11/alec.jpg HTTP/1.1" 200 80950
+2019-10-07 22:08:51,837 INFO     image #8	https://www.thewrap.com/wp-content/uploads/2018/11/alec.jpg
+2019-10-07 22:08:51,842 DEBUG    Starting new HTTPS connection (1): img-s-msn-com.akamaized.net:443
+2019-10-07 22:08:52,147 DEBUG    https://img-s-msn-com.akamaized.net:443 "GET /tenant/amp/entityid/AAHuq7f.img?h=451&w=300&m=6&q=60&o=f&l=f&x=1225&y=952 HTTP/1.1" 200 10720
+2019-10-07 22:08:52,149 INFO     image #9	https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAHuq7f.img?h=451&w=300&m=6&q=60&o=f&l=f&x=1225&y=952
+2019-10-07 22:08:52,155 DEBUG    Starting new HTTP connection (1): s.glbimg.com:80
+2019-10-07 22:08:52,194 DEBUG    http://s.glbimg.com:80 "GET /po/tt/f/original/2011/12/09/alec_baldwin_encerra_sua_conta_no_twitter.jpg HTTP/1.1" 200 128958
+2019-10-07 22:08:52,231 INFO     image #10	http://s.glbimg.com/po/tt/f/original/2011/12/09/alec_baldwin_encerra_sua_conta_no_twitter.jpg
+2019-10-07 22:08:52,236 DEBUG    Starting new HTTPS connection (1): brasil.elpais.com:443
+2019-10-07 22:08:53,703 DEBUG    https://brasil.elpais.com:443 "GET /resizer/oMadhfSkfI_ONoVRxDGh83z2QsU=/1500x0/smart/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/C7QCOGXRCXLMRREECSPPP6KD54.jpg HTTP/1.1" 200 93540
+2019-10-07 22:08:53,791 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:08:53,792 INFO     thread downloader-001 exit
+2019-10-07 22:08:54,406 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:08:54,406 INFO     thread parser-001 exit
+2019-10-07 22:08:54,712 INFO     Crawling task done!
+2019-10-07 22:08:54,712 INFO     Finish crawling
+2019-10-07 22:09:08,372 INFO     Starting crawl to Alex Pettyfer
+2019-10-07 22:09:08,373 INFO     start crawling...
+2019-10-07 22:09:08,373 INFO     starting 1 feeder threads...
+2019-10-07 22:09:08,373 DEBUG    thread feeder-001 started
+2019-10-07 22:09:08,374 DEBUG    put url to url_queue: https://www.google.com/search?q=Alex+Pettyfer&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:08,374 INFO     thread feeder-001 exit
+2019-10-07 22:09:08,374 INFO     starting 1 parser threads...
+2019-10-07 22:09:08,374 DEBUG    thread parser-001 started
+2019-10-07 22:09:08,375 DEBUG    start fetching page https://www.google.com/search?q=Alex+Pettyfer&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:08,375 INFO     starting 1 downloader threads...
+2019-10-07 22:09:08,376 DEBUG    thread downloader-001 started
+2019-10-07 22:09:08,379 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:09:08,731 DEBUG    https://www.google.com:443 "GET /search?q=Alex+Pettyfer&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:09:09,294 INFO     parsing result page https://www.google.com/search?q=Alex+Pettyfer&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:11,414 INFO     no more page urls for thread parser-001 to parse
+2019-10-07 22:09:11,414 INFO     thread parser-001 exit
+2019-10-07 22:09:13,376 INFO     no more download task for thread downloader-001
+2019-10-07 22:09:13,376 INFO     thread downloader-001 exit
+2019-10-07 22:09:13,382 INFO     Crawling task done!
+2019-10-07 22:09:13,382 INFO     Finish crawling
+2019-10-07 22:09:16,290 INFO     Starting crawl to Alexander Skarsgard
+2019-10-07 22:09:16,291 INFO     start crawling...
+2019-10-07 22:09:16,291 INFO     starting 1 feeder threads...
+2019-10-07 22:09:16,292 DEBUG    thread feeder-001 started
+2019-10-07 22:09:16,292 DEBUG    put url to url_queue: https://www.google.com/search?q=Alexander+Skarsgard&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:16,292 INFO     starting 1 parser threads...
+2019-10-07 22:09:16,292 INFO     thread feeder-001 exit
+2019-10-07 22:09:16,293 DEBUG    thread parser-001 started
+2019-10-07 22:09:16,293 DEBUG    start fetching page https://www.google.com/search?q=Alexander+Skarsgard&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:16,294 INFO     starting 1 downloader threads...
+2019-10-07 22:09:16,294 DEBUG    thread downloader-001 started
+2019-10-07 22:09:16,298 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:09:16,806 DEBUG    https://www.google.com:443 "GET /search?q=Alexander+Skarsgard&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:09:16,845 INFO     parsing result page https://www.google.com/search?q=Alexander+Skarsgard&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:16,921 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:09:18,084 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/6/64/Alexander_Skarsgard_%2829485267411%29_%28cropped%29.jpg HTTP/1.1" 200 2336540
+2019-10-07 22:09:21,059 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/6/64/Alexander_Skarsgard_%2829485267411%29_%28cropped%29.jpg
+2019-10-07 22:09:21,064 DEBUG    Starting new HTTPS connection (1): img.thedailybeast.com:443
+2019-10-07 22:09:21,262 DEBUG    https://img.thedailybeast.com:443 "GET /image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1493052961/articles/2011/11/09/alexander-skarsgard-on-melancholia-true-blood-and-more/alexander-skarsgard-stern-new_jamc9d HTTP/1.1" 200 57513
+2019-10-07 22:09:21,322 INFO     image #2	https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_675,w_1200,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1493052961/articles/2011/11/09/alexander-skarsgard-on-melancholia-true-blood-and-more/alexander-skarsgard-stern-new_jamc9d
+2019-10-07 22:09:21,327 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:09:21,411 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMjEyNTgxNTk0M15BMl5BanBnXkFtZTcwNzM5Mjc1OA@@._V1_UY1200_CR105,0,630,1200_AL_.jpg HTTP/1.1" 200 45407
+2019-10-07 22:09:21,460 INFO     image #3	https://m.media-amazon.com/images/M/MV5BMjEyNTgxNTk0M15BMl5BanBnXkFtZTcwNzM5Mjc1OA@@._V1_UY1200_CR105,0,630,1200_AL_.jpg
+2019-10-07 22:09:21,466 DEBUG    Starting new HTTPS connection (1): cdn.onebauer.media:443
+2019-10-07 22:09:22,666 DEBUG    https://cdn.onebauer.media:443 "GET /one/media/5d79/2ca8/711d/3d2d/8817/d241/alexander-skarsgard.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg HTTP/1.1" 200 90860
+2019-10-07 22:09:23,217 INFO     image #4	https://cdn.onebauer.media/one/media/5d79/2ca8/711d/3d2d/8817/d241/alexander-skarsgard.jpg?quality=50&width=1800&ratio=16-9&resizeStyle=aspectfill&format=jpg
+2019-10-07 22:09:23,222 DEBUG    Starting new HTTPS connection (1): resizing.flixster.com:443
+2019-10-07 22:09:24,102 DEBUG    https://resizing.flixster.com:443 "GET /ZPcfLuU17RY0Z2IdQYwUWlHoV9U=/1996x2035/v1.cjs0OTM1MDtqOzE4MTgwOzEyMDA7MTk5NjsyMDM1 HTTP/1.1" 200 167171
+2019-10-07 22:09:24,500 INFO     image #5	https://resizing.flixster.com/ZPcfLuU17RY0Z2IdQYwUWlHoV9U=/1996x2035/v1.cjs0OTM1MDtqOzE4MTgwOzEyMDA7MTk5NjsyMDM1
+2019-10-07 22:09:24,506 DEBUG    Starting new HTTPS connection (1): d26oc3sg82pgk3.cloudfront.net:443
+2019-10-07 22:09:25,372 DEBUG    https://d26oc3sg82pgk3.cloudfront.net:443 "GET /files/media/edit/image/15153/article_full%401x.jpg HTTP/1.1" 200 32823
+2019-10-07 22:09:25,495 INFO     image #6	https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/15153/article_full%401x.jpg
+2019-10-07 22:09:25,499 DEBUG    Starting new HTTPS connection (1): images.amcnetworks.com:443
+2019-10-07 22:09:25,596 DEBUG    https://images.amcnetworks.com:443 "GET /amc.com/wp-content/uploads/2017/11/amc-little-drummer-girl-alexander-skarsgard-1200.jpg HTTP/1.1" 200 101990
+2019-10-07 22:09:25,689 INFO     image #7	https://images.amcnetworks.com/amc.com/wp-content/uploads/2017/11/amc-little-drummer-girl-alexander-skarsgard-1200.jpg
+2019-10-07 22:09:25,695 DEBUG    Starting new HTTPS connection (1): cdnph.upi.com:443
+2019-10-07 22:09:26,751 DEBUG    https://cdnph.upi.com:443 "GET /svc/sv/upi/3441556813175/2019/1/a80d29ab110722ff619202bc99771e6a/Big-Little-Lies-Alexander-Skarsgard-says-Season-2-is-fantastic.jpg HTTP/1.1" 200 50029
+2019-10-07 22:09:26,915 INFO     image #8	https://cdnph.upi.com/svc/sv/upi/3441556813175/2019/1/a80d29ab110722ff619202bc99771e6a/Big-Little-Lies-Alexander-Skarsgard-says-Season-2-is-fantastic.jpg
+2019-10-07 22:09:26,919 DEBUG    Starting new HTTPS connection (1): akns-images.eonline.com:443
+2019-10-07 22:09:28,490 DEBUG    https://akns-images.eonline.com:443 "GET /eol_images/Entire_Site/2017926/rs_634x1024-171026193052-634.alexander-skarsgard.ct.102617.jpg?fit=inside%7C900:auto&output-quality=90 HTTP/1.1" 200 64662
+2019-10-07 22:09:28,618 INFO     image #9	https://akns-images.eonline.com/eol_images/Entire_Site/2017926/rs_634x1024-171026193052-634.alexander-skarsgard.ct.102617.jpg?fit=inside|900:auto&output-quality=90
+2019-10-07 22:09:28,625 DEBUG    Starting new HTTPS connection (1): s1.r29static.com:443
+2019-10-07 22:09:28,850 DEBUG    https://s1.r29static.com:443 "GET /bin/entry/61d/720x864,85/1874809/image.webp HTTP/1.1" 200 64902
+2019-10-07 22:09:28,916 DEBUG    Importing BlpImagePlugin
+2019-10-07 22:09:28,917 DEBUG    Importing BmpImagePlugin
+2019-10-07 22:09:28,917 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 22:09:28,918 DEBUG    Importing CurImagePlugin
+2019-10-07 22:09:28,919 DEBUG    Importing DcxImagePlugin
+2019-10-07 22:09:28,921 DEBUG    Importing DdsImagePlugin
+2019-10-07 22:09:28,922 DEBUG    Importing EpsImagePlugin
+2019-10-07 22:09:28,924 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 22:09:28,925 DEBUG    Importing FliImagePlugin
+2019-10-07 22:09:28,926 DEBUG    Importing FpxImagePlugin
+2019-10-07 22:09:28,927 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 22:09:28,927 DEBUG    Importing FtexImagePlugin
+2019-10-07 22:09:28,928 DEBUG    Importing GbrImagePlugin
+2019-10-07 22:09:28,929 DEBUG    Importing GifImagePlugin
+2019-10-07 22:09:28,929 DEBUG    Importing GribStubImagePlugin
+2019-10-07 22:09:28,930 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 22:09:28,931 DEBUG    Importing IcnsImagePlugin
+2019-10-07 22:09:28,933 DEBUG    Importing IcoImagePlugin
+2019-10-07 22:09:28,934 DEBUG    Importing ImImagePlugin
+2019-10-07 22:09:28,936 DEBUG    Importing ImtImagePlugin
+2019-10-07 22:09:28,937 DEBUG    Importing IptcImagePlugin
+2019-10-07 22:09:28,938 DEBUG    Importing JpegImagePlugin
+2019-10-07 22:09:28,938 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 22:09:28,938 DEBUG    Importing McIdasImagePlugin
+2019-10-07 22:09:28,939 DEBUG    Importing MicImagePlugin
+2019-10-07 22:09:28,940 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 22:09:28,940 DEBUG    Importing MpegImagePlugin
+2019-10-07 22:09:28,941 DEBUG    Importing MpoImagePlugin
+2019-10-07 22:09:28,942 DEBUG    Importing MspImagePlugin
+2019-10-07 22:09:28,943 DEBUG    Importing PalmImagePlugin
+2019-10-07 22:09:28,945 DEBUG    Importing PcdImagePlugin
+2019-10-07 22:09:28,945 DEBUG    Importing PcxImagePlugin
+2019-10-07 22:09:28,945 DEBUG    Importing PdfImagePlugin
+2019-10-07 22:09:28,957 DEBUG    Importing PixarImagePlugin
+2019-10-07 22:09:28,957 DEBUG    Importing PngImagePlugin
+2019-10-07 22:09:28,957 DEBUG    Importing PpmImagePlugin
+2019-10-07 22:09:28,957 DEBUG    Importing PsdImagePlugin
+2019-10-07 22:09:28,958 DEBUG    Importing SgiImagePlugin
+2019-10-07 22:09:28,958 DEBUG    Importing SpiderImagePlugin
+2019-10-07 22:09:28,959 DEBUG    Importing SunImagePlugin
+2019-10-07 22:09:28,959 DEBUG    Importing TgaImagePlugin
+2019-10-07 22:09:28,959 DEBUG    Importing TiffImagePlugin
+2019-10-07 22:09:28,960 DEBUG    Importing WebPImagePlugin
+2019-10-07 22:09:28,961 DEBUG    Importing WmfImagePlugin
+2019-10-07 22:09:28,961 DEBUG    Importing XbmImagePlugin
+2019-10-07 22:09:28,963 DEBUG    Importing XpmImagePlugin
+2019-10-07 22:09:28,963 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 22:09:28,965 INFO     image #10	https://s1.r29static.com/bin/entry/61d/720x864,85/1874809/image.webp
+2019-10-07 22:09:28,969 DEBUG    Starting new HTTPS connection (1): st2.depositphotos.com:443
+2019-10-07 22:09:30,038 DEBUG    https://st2.depositphotos.com:443 "GET /5326338/8790/i/950/depositphotos_87906384-stock-photo-actor-alexander-skarsgard.jpg HTTP/1.1" 200 116133
+2019-10-07 22:09:30,363 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:09:30,364 INFO     thread downloader-001 exit
+2019-10-07 22:09:30,969 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:09:30,970 INFO     thread parser-001 exit
+2019-10-07 22:09:31,312 INFO     Crawling task done!
+2019-10-07 22:09:31,313 INFO     Finish crawling
+2019-10-07 22:09:39,135 INFO     Starting crawl to Alexandra Daddario
+2019-10-07 22:09:39,136 INFO     start crawling...
+2019-10-07 22:09:39,136 INFO     starting 1 feeder threads...
+2019-10-07 22:09:39,136 DEBUG    thread feeder-001 started
+2019-10-07 22:09:39,137 DEBUG    put url to url_queue: https://www.google.com/search?q=Alexandra+Daddario&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:39,137 INFO     thread feeder-001 exit
+2019-10-07 22:09:39,137 INFO     starting 1 parser threads...
+2019-10-07 22:09:39,137 DEBUG    thread parser-001 started
+2019-10-07 22:09:39,137 DEBUG    start fetching page https://www.google.com/search?q=Alexandra+Daddario&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:39,138 INFO     starting 1 downloader threads...
+2019-10-07 22:09:39,139 DEBUG    thread downloader-001 started
+2019-10-07 22:09:39,142 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:09:39,755 DEBUG    https://www.google.com:443 "GET /search?q=Alexandra+Daddario&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:09:39,790 INFO     parsing result page https://www.google.com/search?q=Alexandra+Daddario&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:39,868 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:09:40,676 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/0/06/Alexandra_Daddario_Eva_Rinaldi_Photography_%281%29_%2834571221352%29.jpg HTTP/1.1" 200 1870140
+2019-10-07 22:09:43,163 INFO     image #1	https://upload.wikimedia.org/wikipedia/commons/0/06/Alexandra_Daddario_Eva_Rinaldi_Photography_%281%29_%2834571221352%29.jpg
+2019-10-07 22:09:43,167 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:09:43,251 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTY3Nzg2NjA1OF5BMl5BanBnXkFtZTgwMjY5NTU1MzI@._V1_UY1200_CR127,0,630,1200_AL_.jpg HTTP/1.1" 200 46745
+2019-10-07 22:09:43,303 INFO     image #2	https://m.media-amazon.com/images/M/MV5BMTY3Nzg2NjA1OF5BMl5BanBnXkFtZTgwMjY5NTU1MzI@._V1_UY1200_CR127,0,630,1200_AL_.jpg
+2019-10-07 22:09:43,306 DEBUG    Starting new HTTP connection (1): www.arrobanerd.com.br:80
+2019-10-07 22:09:43,373 DEBUG    http://www.arrobanerd.com.br:80 "GET /wp-content/uploads/2019/03/alexandra-daddario.jpg HTTP/1.1" 200 65459
+2019-10-07 22:09:43,483 INFO     image #3	http://www.arrobanerd.com.br/wp-content/uploads/2019/03/alexandra-daddario.jpg
+2019-10-07 22:09:43,488 DEBUG    Starting new HTTPS connection (1): pbs.twimg.com:443
+2019-10-07 22:09:43,579 DEBUG    https://pbs.twimg.com:443 "GET /profile_images/1009469376490192896/hW_ZFLHm_400x400.jpg HTTP/1.1" 200 31267
+2019-10-07 22:09:43,609 INFO     image #4	https://pbs.twimg.com/profile_images/1009469376490192896/hW_ZFLHm_400x400.jpg
+2019-10-07 22:09:43,614 DEBUG    Starting new HTTPS connection (1): kanto.legiaodosherois.com.br:443
+2019-10-07 22:09:45,286 DEBUG    https://kanto.legiaodosherois.com.br:443 "GET /w760-h398-gnw-cfill-q80/wp-content/uploads/2019/09/legiao_9anm2h0_DrAYkUoOKWB8MtJweVgiF7l3zTxHq64pSQ.png.jpeg HTTP/1.1" 200 None
+2019-10-07 22:09:45,319 INFO     image #5	https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2019/09/legiao_9anm2h0_DrAYkUoOKWB8MtJweVgiF7l3zTxHq64pSQ.png.jpeg
+2019-10-07 22:09:45,324 DEBUG    Starting new HTTP connection (1): br.web.img3.acsta.net:80
+2019-10-07 22:09:46,103 DEBUG    http://br.web.img3.acsta.net:80 "GET /pictures/18/09/22/00/15/3723704.jpg HTTP/1.1" 200 274257
+2019-10-07 22:09:46,687 INFO     image #6	http://br.web.img3.acsta.net/pictures/18/09/22/00/15/3723704.jpg
+2019-10-07 22:09:46,693 DEBUG    Starting new HTTPS connection (1): cdn2-www.comingsoon.net:443
+2019-10-07 22:09:46,875 DEBUG    https://cdn2-www.comingsoon.net:443 "GET /assets/uploads/2019/07/BGUS_1353773_016.jpg HTTP/1.1" 200 45683
+2019-10-07 22:09:46,926 INFO     image #7	https://cdn2-www.comingsoon.net/assets/uploads/2019/07/BGUS_1353773_016.jpg
+2019-10-07 22:09:46,932 DEBUG    Starting new HTTPS connection (1): www.ccdiscovery.com:443
+2019-10-07 22:09:47,844 DEBUG    https://www.ccdiscovery.com:443 "GET /wp-content/uploads/2019/08/Alexandra-Daddario-1.jpg HTTP/1.1" 200 107706
+2019-10-07 22:09:48,104 INFO     image #8	https://www.ccdiscovery.com/wp-content/uploads/2019/08/Alexandra-Daddario-1.jpg
+2019-10-07 22:09:48,106 DEBUG    Starting new HTTPS connection (1): wwwimage-secure.cbsstatic.com:443
+2019-10-07 22:09:48,400 DEBUG    https://wwwimage-secure.cbsstatic.com:443 "GET /thumbnails/photos/w425/cast/alexandradaddario_800x1000.jpg HTTP/1.1" 200 37311
+2019-10-07 22:09:48,443 INFO     image #9	https://wwwimage-secure.cbsstatic.com/thumbnails/photos/w425/cast/alexandradaddario_800x1000.jpg
+2019-10-07 22:09:48,447 DEBUG    Starting new HTTPS connection (1): i.ytimg.com:443
+2019-10-07 22:09:48,540 DEBUG    https://i.ytimg.com:443 "GET /vi/9CsKtUG8FgE/maxresdefault.jpg HTTP/1.1" 200 71414
+2019-10-07 22:09:48,622 INFO     image #10	https://i.ytimg.com/vi/9CsKtUG8FgE/maxresdefault.jpg
+2019-10-07 22:09:48,628 DEBUG    Starting new HTTPS connection (1): hips.hearstapps.com:443
+2019-10-07 22:09:48,936 DEBUG    https://hips.hearstapps.com:443 "GET /hmg-prod.s3.amazonaws.com/images/alexandra-daddario-attends-the-baywatch-photo-call-in-news-photo-690172218-1533150063.jpg HTTP/1.1" 200 960552
+2019-10-07 22:09:50,014 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:09:50,014 INFO     thread downloader-001 exit
+2019-10-07 22:09:50,151 INFO     Crawling task done!
+2019-10-07 22:09:50,151 INFO     Finish crawling
+2019-10-07 22:09:51,211 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:09:51,211 INFO     thread parser-001 exit
+2019-10-07 22:09:57,430 INFO     Starting crawl to Alexis Thorpe
+2019-10-07 22:09:57,431 INFO     start crawling...
+2019-10-07 22:09:57,431 INFO     starting 1 feeder threads...
+2019-10-07 22:09:57,431 DEBUG    thread feeder-001 started
+2019-10-07 22:09:57,432 DEBUG    put url to url_queue: https://www.google.com/search?q=Alexis+Thorpe&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:57,432 INFO     thread feeder-001 exit
+2019-10-07 22:09:57,432 INFO     starting 1 parser threads...
+2019-10-07 22:09:57,432 DEBUG    thread parser-001 started
+2019-10-07 22:09:57,432 DEBUG    start fetching page https://www.google.com/search?q=Alexis+Thorpe&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:57,433 INFO     starting 1 downloader threads...
+2019-10-07 22:09:57,433 DEBUG    thread downloader-001 started
+2019-10-07 22:09:57,436 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:09:58,186 DEBUG    https://www.google.com:443 "GET /search?q=Alexis+Thorpe&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:09:58,218 INFO     parsing result page https://www.google.com/search?q=Alexis+Thorpe&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:09:58,284 DEBUG    Starting new HTTP connection (1): images.fandango.com:80
+2019-10-07 22:09:59,414 DEBUG    http://images.fandango.com:80 "GET /ImageRenderer/0/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p285099/alexisthorpe-trunkshow-2.jpg HTTP/1.1" 200 106290
+2019-10-07 22:09:59,817 INFO     image #1	http://images.fandango.com/ImageRenderer/0/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p285099/alexisthorpe-trunkshow-2.jpg
+2019-10-07 22:09:59,819 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:10:00,229 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTYwNDM2OTQ2OV5BMl5BanBnXkFtZTYwNDkzMzcz._V1_UY317_CR14,0,214,317_AL_.jpg HTTP/1.1" 200 15947
+2019-10-07 22:10:00,230 INFO     image #2	https://m.media-amazon.com/images/M/MV5BMTYwNDM2OTQ2OV5BMl5BanBnXkFtZTYwNDkzMzcz._V1_UY317_CR14,0,214,317_AL_.jpg
+2019-10-07 22:10:00,234 DEBUG    Starting new HTTPS connection (1): st.depositphotos.com:443
+2019-10-07 22:10:01,360 DEBUG    https://st.depositphotos.com:443 "GET /1814084/1772/i/950/depositphotos_17726665-stock-photo-alexis-thorpe.jpg HTTP/1.1" 200 86995
+2019-10-07 22:10:01,647 INFO     image #3	https://st.depositphotos.com/1814084/1772/i/950/depositphotos_17726665-stock-photo-alexis-thorpe.jpg
+2019-10-07 22:10:06,657 ERROR    Exception caught when downloading file https://st.depositphotos.com/1814084/1774/i/950/depositphotos_17742919-stock-photo-alexis-thorpe-and-eric-winter.jpg, error: HTTPSConnectionPool(host='st.depositphotos.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2019-10-07 22:10:06,661 DEBUG    Starting new HTTPS connection (2): st.depositphotos.com:443
+2019-10-07 22:10:07,419 DEBUG    https://st.depositphotos.com:443 "GET /1814084/1774/i/950/depositphotos_17742919-stock-photo-alexis-thorpe-and-eric-winter.jpg HTTP/1.1" 200 92589
+2019-10-07 22:10:07,732 INFO     image #4	https://st.depositphotos.com/1814084/1774/i/950/depositphotos_17742919-stock-photo-alexis-thorpe-and-eric-winter.jpg
+2019-10-07 22:10:08,222 DEBUG    http://images.fandango.com:80 "GET /ImageRenderer/0/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p285099/alexisthorpe-2.jpg HTTP/1.1" 200 54956
+2019-10-07 22:10:08,546 INFO     image #5	http://images.fandango.com/ImageRenderer/0/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/p285099/alexisthorpe-2.jpg
+2019-10-07 22:10:08,549 DEBUG    Starting new HTTPS connection (1): c8.alamy.com:443
+2019-10-07 22:10:10,170 DEBUG    https://c8.alamy.com:443 "GET /comp/MJNKYA/28-sep-2000-los-angeles-california-usa-original-caption-the-young-the-restless-celebrates-the-taping-of-its-7000th-episode-at-the-cbs-studio-in-los-angeles-tsuni-usa-alexis-thorpe-0136-alexis-thorpe-0136-celebrities-fashion-full-length-from-the-red-carpet-1994-2000-one-person-vertical-best-of-hollywood-life-one-person-vertical-best-of-hollywood-life-event-in-hollywood-life-california-red-carpet-event-vertical-usa-film-industry-celebrities-photography-bestof-arts-culture-and-entertainment-topix-MJNKYA.jpg HTTP/1.1" 200 None
+2019-10-07 22:10:11,054 INFO     image #6	https://c8.alamy.com/comp/MJNKYA/28-sep-2000-los-angeles-california-usa-original-caption-the-young-the-restless-celebrates-the-taping-of-its-7000th-episode-at-the-cbs-studio-in-los-angeles-tsuni-usa-alexis-thorpe-0136-alexis-thorpe-0136-celebrities-fashion-full-length-from-the-red-carpet-1994-2000-one-person-vertical-best-of-hollywood-life-one-person-vertical-best-of-hollywood-life-event-in-hollywood-life-california-red-carpet-event-vertical-usa-film-industry-celebrities-photography-bestof-arts-culture-and-entertainment-topix-MJNKYA.jpg
+2019-10-07 22:10:11,059 DEBUG    Starting new HTTPS connection (1): www.celebheights.com:443
+2019-10-07 22:10:12,422 DEBUG    https://www.celebheights.com:443 "GET /xr/a/alexis-thorpe.jpg HTTP/1.1" 200 85091
+2019-10-07 22:10:12,880 INFO     image #7	https://www.celebheights.com/xr/a/alexis-thorpe.jpg
+2019-10-07 22:10:12,885 DEBUG    Starting new HTTPS connection (1): ilarge.lisimg.com:443
+2019-10-07 22:10:13,855 DEBUG    https://ilarge.lisimg.com:443 "GET /image/8160605/1118full-alexis-thorpe.jpg HTTP/1.1" 200 307261
+2019-10-07 22:10:14,763 INFO     image #8	https://ilarge.lisimg.com/image/8160605/1118full-alexis-thorpe.jpg
+2019-10-07 22:10:14,914 DEBUG    https://st.depositphotos.com:443 "GET /1814084/1732/i/950/depositphotos_17328891-stock-photo-alexis-thorpe.jpg HTTP/1.1" 200 95494
+2019-10-07 22:10:15,071 INFO     image #9	https://st.depositphotos.com/1814084/1732/i/950/depositphotos_17328891-stock-photo-alexis-thorpe.jpg
+2019-10-07 22:10:15,076 DEBUG    Starting new HTTP connection (1): portugese.fansshare.com:80
+2019-10-07 22:10:15,596 DEBUG    http://portugese.fansshare.com:80 "GET /photograph/alexisthorpe/alexis-thorpe-wallpaper-593953077.jpg HTTP/1.1" 307 0
+2019-10-07 22:10:15,601 DEBUG    Starting new HTTP connection (1): imagery2.fansshare.com:80
+2019-10-07 22:10:16,005 DEBUG    http://imagery2.fansshare.com:80 "GET /f/?z=97&version=photograph/alexisthorpe/alexis-thorpe-wallpaper-593953077.jpg&d=portugese.fansshare.com&r= HTTP/1.1" 302 None
+2019-10-07 22:10:16,015 DEBUG    Resetting dropped connection: portugese.fansshare.com
+2019-10-07 22:10:16,416 DEBUG    http://portugese.fansshare.com:80 "GET /gallery/photos/15680719/alexis-thorpe-wallpaper/ HTTP/1.1" 200 18199
+2019-10-07 22:10:16,625 DEBUG    Importing BlpImagePlugin
+2019-10-07 22:10:16,627 DEBUG    Importing BmpImagePlugin
+2019-10-07 22:10:16,627 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 22:10:16,628 DEBUG    Importing CurImagePlugin
+2019-10-07 22:10:16,628 DEBUG    Importing DcxImagePlugin
+2019-10-07 22:10:16,629 DEBUG    Importing DdsImagePlugin
+2019-10-07 22:10:16,630 DEBUG    Importing EpsImagePlugin
+2019-10-07 22:10:16,631 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 22:10:16,631 DEBUG    Importing FliImagePlugin
+2019-10-07 22:10:16,632 DEBUG    Importing FpxImagePlugin
+2019-10-07 22:10:16,632 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 22:10:16,632 DEBUG    Importing FtexImagePlugin
+2019-10-07 22:10:16,633 DEBUG    Importing GbrImagePlugin
+2019-10-07 22:10:16,633 DEBUG    Importing GifImagePlugin
+2019-10-07 22:10:16,633 DEBUG    Importing GribStubImagePlugin
+2019-10-07 22:10:16,633 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 22:10:16,634 DEBUG    Importing IcnsImagePlugin
+2019-10-07 22:10:16,635 DEBUG    Importing IcoImagePlugin
+2019-10-07 22:10:16,635 DEBUG    Importing ImImagePlugin
+2019-10-07 22:10:16,636 DEBUG    Importing ImtImagePlugin
+2019-10-07 22:10:16,637 DEBUG    Importing IptcImagePlugin
+2019-10-07 22:10:16,637 DEBUG    Importing JpegImagePlugin
+2019-10-07 22:10:16,637 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 22:10:16,638 DEBUG    Importing McIdasImagePlugin
+2019-10-07 22:10:16,638 DEBUG    Importing MicImagePlugin
+2019-10-07 22:10:16,639 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 22:10:16,639 DEBUG    Importing MpegImagePlugin
+2019-10-07 22:10:16,639 DEBUG    Importing MpoImagePlugin
+2019-10-07 22:10:16,639 DEBUG    Importing MspImagePlugin
+2019-10-07 22:10:16,640 DEBUG    Importing PalmImagePlugin
+2019-10-07 22:10:16,641 DEBUG    Importing PcdImagePlugin
+2019-10-07 22:10:16,641 DEBUG    Importing PcxImagePlugin
+2019-10-07 22:10:16,641 DEBUG    Importing PdfImagePlugin
+2019-10-07 22:10:16,652 DEBUG    Importing PixarImagePlugin
+2019-10-07 22:10:16,653 DEBUG    Importing PngImagePlugin
+2019-10-07 22:10:16,653 DEBUG    Importing PpmImagePlugin
+2019-10-07 22:10:16,653 DEBUG    Importing PsdImagePlugin
+2019-10-07 22:10:16,653 DEBUG    Importing SgiImagePlugin
+2019-10-07 22:10:16,654 DEBUG    Importing SpiderImagePlugin
+2019-10-07 22:10:16,654 DEBUG    Importing SunImagePlugin
+2019-10-07 22:10:16,655 DEBUG    Importing TgaImagePlugin
+2019-10-07 22:10:16,655 DEBUG    Importing TiffImagePlugin
+2019-10-07 22:10:16,655 DEBUG    Importing WebPImagePlugin
+2019-10-07 22:10:16,656 DEBUG    Importing WmfImagePlugin
+2019-10-07 22:10:16,657 DEBUG    Importing XbmImagePlugin
+2019-10-07 22:10:16,658 DEBUG    Importing XpmImagePlugin
+2019-10-07 22:10:16,659 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 22:10:16,662 DEBUG    Starting new HTTPS connection (1): images4.static-bluray.com:443
+2019-10-07 22:10:17,748 DEBUG    https://images4.static-bluray.com:443 "GET /products/22/130625_1_large.jpg HTTP/1.1" 200 139728
+2019-10-07 22:10:17,923 INFO     image #10	https://images4.static-bluray.com/products/22/130625_1_large.jpg
+2019-10-07 22:10:17,929 DEBUG    Starting new HTTPS connection (1): images-na.ssl-images-amazon.com:443
+2019-10-07 22:10:18,378 DEBUG    https://images-na.ssl-images-amazon.com:443 "GET /images/I/71Oi7joP2NL._SX385_.jpg HTTP/1.1" 200 23208
+2019-10-07 22:10:18,391 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:10:18,391 INFO     thread downloader-001 exit
+2019-10-07 22:10:18,458 INFO     Crawling task done!
+2019-10-07 22:10:18,458 INFO     Finish crawling
+2019-10-07 22:10:19,316 INFO     downloaded image reached max num, thread parser-001 is ready to exit
+2019-10-07 22:10:19,317 INFO     thread parser-001 exit
+2019-10-07 22:10:25,888 INFO     Starting crawl to Ali Larter
+2019-10-07 22:10:25,889 INFO     start crawling...
+2019-10-07 22:10:25,889 INFO     starting 1 feeder threads...
+2019-10-07 22:10:25,889 DEBUG    thread feeder-001 started
+2019-10-07 22:10:25,890 DEBUG    put url to url_queue: https://www.google.com/search?q=Ali+Larter&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:25,890 INFO     starting 1 parser threads...
+2019-10-07 22:10:25,890 INFO     thread feeder-001 exit
+2019-10-07 22:10:25,890 DEBUG    thread parser-001 started
+2019-10-07 22:10:25,891 DEBUG    start fetching page https://www.google.com/search?q=Ali+Larter&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:25,891 INFO     starting 1 downloader threads...
+2019-10-07 22:10:25,892 DEBUG    thread downloader-001 started
+2019-10-07 22:10:25,895 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:10:34,858 INFO     Starting crawl to Amanda Bynes
+2019-10-07 22:10:34,858 INFO     start crawling...
+2019-10-07 22:10:34,859 INFO     starting 1 feeder threads...
+2019-10-07 22:10:34,859 DEBUG    thread feeder-001 started
+2019-10-07 22:10:34,859 DEBUG    put url to url_queue: https://www.google.com/search?q=Amanda+Bynes&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:34,859 INFO     starting 1 parser threads...
+2019-10-07 22:10:34,860 INFO     thread feeder-001 exit
+2019-10-07 22:10:34,860 DEBUG    thread parser-001 started
+2019-10-07 22:10:34,860 DEBUG    start fetching page https://www.google.com/search?q=Amanda+Bynes&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:34,861 INFO     starting 1 downloader threads...
+2019-10-07 22:10:34,861 DEBUG    thread downloader-001 started
+2019-10-07 22:10:34,864 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:10:35,465 DEBUG    https://www.google.com:443 "GET /search?q=Amanda+Bynes&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:10:35,503 INFO     parsing result page https://www.google.com/search?q=Amanda+Bynes&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:35,572 DEBUG    Starting new HTTPS connection (1): akns-images.eonline.com:443
+2019-10-07 22:10:36,898 DEBUG    https://akns-images.eonline.com:443 "GET /eol_images/Entire_Site/201759/rs_600x600-170609074442-600.amanda-bynes.6917.jpg?fit=around%7C700:700&crop=700:700;center,top&output-quality=90 HTTP/1.1" 200 53307
+2019-10-07 22:10:37,009 INFO     image #1	https://akns-images.eonline.com/eol_images/Entire_Site/201759/rs_600x600-170609074442-600.amanda-bynes.6917.jpg?fit=around|700:700&crop=700:700;center,top&output-quality=90
+2019-10-07 22:10:37,081 DEBUG    https://akns-images.eonline.com:443 "GET /eol_images/Entire_Site/201921/rs_634x1024-190301101454-634-amanda-bynes-metal-facility.jpg?fit=inside%7C900:auto&output-quality=90 HTTP/1.1" 200 118847
+2019-10-07 22:10:37,204 INFO     image #2	https://akns-images.eonline.com/eol_images/Entire_Site/201921/rs_634x1024-190301101454-634-amanda-bynes-metal-facility.jpg?fit=inside|900:auto&output-quality=90
+2019-10-07 22:10:37,209 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:10:38,025 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/4/4e/Amanda_Bynes_2009.jpg HTTP/1.1" 200 1176734
+2019-10-07 22:10:40,069 INFO     image #3	https://upload.wikimedia.org/wikipedia/commons/4/4e/Amanda_Bynes_2009.jpg
+2019-10-07 22:10:40,076 DEBUG    Starting new HTTPS connection (1): images.complex.com:443
+2019-10-07 22:10:40,197 DEBUG    https://images.complex.com:443 "GET /complex/images/c_scale,q_auto,w_1920/fl_lossy,pg_1/xtfmruwjcwdvrnkangau/amanda-bynes HTTP/1.1" 200 305986
+2019-10-07 22:10:40,535 INFO     image #4	https://images.complex.com/complex/images/c_scale,q_auto,w_1920/fl_lossy,pg_1/xtfmruwjcwdvrnkangau/amanda-bynes
+2019-10-07 22:10:40,543 DEBUG    Starting new HTTPS connection (1): www.estrelando.com.br:443
+2019-10-07 22:10:41,107 DEBUG    https://www.estrelando.com.br:443 "GET /uploads/2018/11/27/amanda-bynes-1543341244.jpg HTTP/1.1" 200 137696
+2019-10-07 22:10:41,267 INFO     image #5	https://www.estrelando.com.br/uploads/2018/11/27/amanda-bynes-1543341244.jpg
+2019-10-07 22:10:41,269 DEBUG    Starting new HTTPS connection (1): nyppagesix.files.wordpress.com:443
+2019-10-07 22:10:41,389 DEBUG    https://nyppagesix.files.wordpress.com:443 "GET /2017/10/amanda-bynes-split1.jpg?quality=90&strip=all HTTP/1.1" 200 610416
+2019-10-07 22:10:46,864 INFO     Starting crawl to Amy Ryan
+2019-10-07 22:10:46,865 INFO     start crawling...
+2019-10-07 22:10:46,865 INFO     starting 1 feeder threads...
+2019-10-07 22:10:46,865 DEBUG    thread feeder-001 started
+2019-10-07 22:10:46,866 DEBUG    put url to url_queue: https://www.google.com/search?q=Amy+Ryan&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:46,866 INFO     starting 1 parser threads...
+2019-10-07 22:10:46,866 INFO     thread feeder-001 exit
+2019-10-07 22:10:46,866 DEBUG    thread parser-001 started
+2019-10-07 22:10:46,866 DEBUG    start fetching page https://www.google.com/search?q=Amy+Ryan&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:46,867 INFO     starting 1 downloader threads...
+2019-10-07 22:10:46,868 DEBUG    thread downloader-001 started
+2019-10-07 22:10:46,871 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:10:47,652 DEBUG    https://www.google.com:443 "GET /search?q=Amy+Ryan&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:10:47,691 INFO     parsing result page https://www.google.com/search?q=Amy+Ryan&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:47,771 DEBUG    Starting new HTTPS connection (1): m.media-amazon.com:443
+2019-10-07 22:10:47,836 DEBUG    https://m.media-amazon.com:443 "GET /images/M/MV5BMTY0MTcwMzM0Nl5BMl5BanBnXkFtZTcwODIyMjM3NA@@._V1_.jpg HTTP/1.1" 200 624352
+2019-10-07 22:10:48,662 INFO     image #1	https://m.media-amazon.com/images/M/MV5BMTY0MTcwMzM0Nl5BMl5BanBnXkFtZTcwODIyMjM3NA@@._V1_.jpg
+2019-10-07 22:10:48,665 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:10:49,495 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/a/a6/Amy_Ryan_Gersh_NY_Official_1.31.13.jpg HTTP/1.1" 200 399359
+2019-10-07 22:10:50,365 INFO     image #2	https://upload.wikimedia.org/wikipedia/commons/a/a6/Amy_Ryan_Gersh_NY_Official_1.31.13.jpg
+2019-10-07 22:10:50,369 DEBUG    Starting new HTTPS connection (1): cdnph.upi.com:443
+2019-10-07 22:10:51,433 DEBUG    https://cdnph.upi.com:443 "GET /svc/sv/upi/7761540648988/2018/1/f70a299c75a092e3af2d97a03e632873/Amy-Ryan-Gabriel-Byrne-to-star-in-Netflixs-Lost-Girls.jpg HTTP/1.1" 200 72485
+2019-10-07 22:10:51,760 INFO     image #3	https://cdnph.upi.com/svc/sv/upi/7761540648988/2018/1/f70a299c75a092e3af2d97a03e632873/Amy-Ryan-Gabriel-Byrne-to-star-in-Netflixs-Lost-Girls.jpg
+2019-10-07 22:10:51,765 DEBUG    Starting new HTTPS connection (1): www.etonline.com:443
+2019-10-07 22:10:52,254 DEBUG    https://www.etonline.com:443 "GET /sites/default/files/styles/max_970x546/public/images/2017-09/1280_amy_ryan_getty.jpg?itok=2jXkt1-1&h=c673cd1c HTTP/1.1" 200 64194
+2019-10-07 22:10:52,314 INFO     image #4	https://www.etonline.com/sites/default/files/styles/max_970x546/public/images/2017-09/1280_amy_ryan_getty.jpg?itok=2jXkt1-1&h=c673cd1c
+2019-10-07 22:10:52,319 DEBUG    Starting new HTTPS connection (1): media.nbcbayarea.com:443
+2019-10-07 22:10:52,875 DEBUG    https://media.nbcbayarea.com:443 "GET /images/652*489/amy-ryan.jpg HTTP/1.1" 200 43274
+2019-10-07 22:10:53,050 INFO     image #5	https://media.nbcbayarea.com/images/652*489/amy-ryan.jpg
+2019-10-07 22:10:53,053 DEBUG    Starting new HTTPS connection (1): www.indiewire.com:443
+2019-10-07 22:10:53,141 DEBUG    https://www.indiewire.com:443 "GET /wp-content/uploads/2017/09/amy-ryan-abundant-acreage-available.jpg?w=618 HTTP/1.1" 200 33873
+2019-10-07 22:10:53,167 INFO     image #6	https://www.indiewire.com/wp-content/uploads/2017/09/amy-ryan-abundant-acreage-available.jpg?w=618
+2019-10-07 22:10:53,170 DEBUG    Starting new HTTPS connection (1): st.depositphotos.com:443
+2019-10-07 22:10:54,193 DEBUG    https://st.depositphotos.com:443 "GET /1694341/1308/i/950/depositphotos_13083647-stock-photo-amy-ryan.jpg HTTP/1.1" 200 74899
+2019-10-07 22:10:54,460 INFO     image #7	https://st.depositphotos.com/1694341/1308/i/950/depositphotos_13083647-stock-photo-amy-ryan.jpg
+2019-10-07 22:10:54,465 DEBUG    Starting new HTTP connection (1): www2.pictures.zimbio.com:80
+2019-10-07 22:10:54,553 DEBUG    http://www2.pictures.zimbio.com:80 "GET /bg/Amy+Ryan+Beautiful+Boy+Premiere+GGfxpaSa4Wll.jpg HTTP/1.1" 200 77713
+2019-10-07 22:10:54,724 INFO     image #8	http://www2.pictures.zimbio.com/bg/Amy+Ryan+Beautiful+Boy+Premiere+GGfxpaSa4Wll.jpg
+2019-10-07 22:10:54,729 DEBUG    Starting new HTTPS connection (1): static.playbill.com:443
+2019-10-07 22:10:54,944 DEBUG    https://static.playbill.com:443 "GET /dims4/default/d25c842/2147483647/crop/300x358%2B0%2B0/resize/300x358%3E/quality/90/?url=http%3A%2F%2Fplaybill-brightspot.s3.amazonaws.com%2F20%2F44%2F6dc918014924927d9c3185a35faa%2FAmy-Ryan.1284149094.jpg HTTP/1.1" 200 31333
+2019-10-07 22:10:54,981 INFO     image #9	https://static.playbill.com/dims4/default/d25c842/2147483647/crop/300x358%2B0%2B0/resize/300x358%3E/quality/90/?url=http%3A%2F%2Fplaybill-brightspot.s3.amazonaws.com%2F20%2F44%2F6dc918014924927d9c3185a35faa%2FAmy-Ryan.1284149094.jpg
+2019-10-07 22:10:54,986 DEBUG    Starting new HTTPS connection (1): s1.reutersmedia.net:443
+2019-10-07 22:10:55,332 DEBUG    https://s1.reutersmedia.net:443 "GET /resources/r/?m=02&d=20101027&t=2&i=234968170&w=&fh=545px&fw=&ll=&pl=&sq=&r=2010-10-27T055647Z_01_BTRE69Q0GIS00_RTROPTP_0_USA HTTP/1.1" 200 25015
+2019-10-07 22:10:55,362 INFO     image #10	https://s1.reutersmedia.net/resources/r/?m=02&d=20101027&t=2&i=234968170&w=&fh=545px&fw=&ll=&pl=&sq=&r=2010-10-27T055647Z_01_BTRE69Q0GIS00_RTROPTP_0_USA
+2019-10-07 22:10:55,370 DEBUG    Starting new HTTPS connection (1): www.estrelando.com.br:443
+2019-10-07 22:10:58,405 INFO     Starting crawl to Amy Schumer
+2019-10-07 22:10:58,406 INFO     start crawling...
+2019-10-07 22:10:58,406 INFO     starting 1 feeder threads...
+2019-10-07 22:10:58,406 DEBUG    thread feeder-001 started
+2019-10-07 22:10:58,406 DEBUG    put url to url_queue: https://www.google.com/search?q=Amy+Schumer&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:58,407 INFO     starting 1 parser threads...
+2019-10-07 22:10:58,407 INFO     thread feeder-001 exit
+2019-10-07 22:10:58,407 DEBUG    thread parser-001 started
+2019-10-07 22:10:58,407 DEBUG    start fetching page https://www.google.com/search?q=Amy+Schumer&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:58,408 INFO     starting 1 downloader threads...
+2019-10-07 22:10:58,408 DEBUG    thread downloader-001 started
+2019-10-07 22:10:58,412 DEBUG    Starting new HTTPS connection (1): www.google.com:443
+2019-10-07 22:10:59,225 DEBUG    https://www.google.com:443 "GET /search?q=Amy+Schumer&ijn=0&start=0&tbs=&tbm=isch HTTP/1.1" 200 None
+2019-10-07 22:10:59,268 INFO     parsing result page https://www.google.com/search?q=Amy+Schumer&ijn=0&start=0&tbs=&tbm=isch
+2019-10-07 22:10:59,347 DEBUG    Starting new HTTPS connection (1): ichef.bbci.co.uk:443
+2019-10-07 22:10:59,635 DEBUG    https://ichef.bbci.co.uk:443 "GET /news/660/cpsprodpb/036C/production/_103967800_62153bf3-7979-41a9-bdb3-46bb04bf4f5e.jpg HTTP/1.1" 200 25475
+2019-10-07 22:10:59,704 INFO     image #1	https://ichef.bbci.co.uk/news/660/cpsprodpb/036C/production/_103967800_62153bf3-7979-41a9-bdb3-46bb04bf4f5e.jpg
+2019-10-07 22:10:59,707 DEBUG    Starting new HTTPS connection (1): www.thewrap.com:443
+2019-10-07 22:11:00,361 DEBUG    https://www.thewrap.com:443 "GET /wp-content/uploads/2018/10/AmySchumer.jpg HTTP/1.1" 200 36938
+2019-10-07 22:11:00,590 INFO     image #2	https://www.thewrap.com/wp-content/uploads/2018/10/AmySchumer.jpg
+2019-10-07 22:11:00,595 DEBUG    Starting new HTTPS connection (1): upload.wikimedia.org:443
+2019-10-07 22:11:02,603 DEBUG    https://upload.wikimedia.org:443 "GET /wikipedia/commons/0/0b/Amy_Schumer_by_Mario_Santor.jpg HTTP/1.1" 200 205820
+2019-10-07 22:11:03,285 INFO     image #3	https://upload.wikimedia.org/wikipedia/commons/0/0b/Amy_Schumer_by_Mario_Santor.jpg
+2019-10-07 22:11:03,291 DEBUG    Starting new HTTPS connection (1): img.estadao.com.br:443
+2019-10-07 22:11:04,379 DEBUG    https://img.estadao.com.br:443 "GET /thumbs/640/resources/jpg/6/7/1535726305176.jpg HTTP/1.1" 200 31897
+2019-10-07 22:11:04,404 INFO     image #4	https://img.estadao.com.br/thumbs/640/resources/jpg/6/7/1535726305176.jpg
+2019-10-07 22:11:04,408 DEBUG    Starting new HTTPS connection (1): cdn.britannica.com:443
+2019-10-07 22:11:04,754 DEBUG    https://cdn.britannica.com:443 "GET /48/188648-050-D21AAED1/Amy-Schumer-2015.jpg HTTP/1.1" 200 212236
+2019-10-07 22:11:05,044 INFO     image #5	https://cdn.britannica.com/48/188648-050-D21AAED1/Amy-Schumer-2015.jpg
+2019-10-07 22:11:05,050 DEBUG    Starting new HTTPS connection (1): www.usmagazine.com:443
+2019-10-07 22:11:05,151 DEBUG    https://www.usmagazine.com:443 "GET /wp-content/uploads/2019/04/Amy-Schumer-Bashes-Birth-Rumors-2.jpg HTTP/1.1" 200 2474911
+2019-10-07 22:11:08,429 INFO     image #6	https://www.usmagazine.com/wp-content/uploads/2019/04/Amy-Schumer-Bashes-Birth-Rumors-2.jpg
+2019-10-07 22:11:08,439 DEBUG    Starting new HTTPS connection (1): s2.r29static.com:443
+2019-10-07 22:11:08,572 DEBUG    https://s2.r29static.com:443 "GET /bin/entry/fb6/720x864,85/2131664/image.webp HTTP/1.1" 200 36762
+2019-10-07 22:11:08,618 DEBUG    Importing BlpImagePlugin
+2019-10-07 22:11:08,620 DEBUG    Importing BmpImagePlugin
+2019-10-07 22:11:08,620 DEBUG    Importing BufrStubImagePlugin
+2019-10-07 22:11:08,621 DEBUG    Importing CurImagePlugin
+2019-10-07 22:11:08,622 DEBUG    Importing DcxImagePlugin
+2019-10-07 22:11:08,624 DEBUG    Importing DdsImagePlugin
+2019-10-07 22:11:08,625 DEBUG    Importing EpsImagePlugin
+2019-10-07 22:11:08,628 DEBUG    Importing FitsStubImagePlugin
+2019-10-07 22:11:08,629 DEBUG    Importing FliImagePlugin
+2019-10-07 22:11:08,630 DEBUG    Importing FpxImagePlugin
+2019-10-07 22:11:08,631 DEBUG    Image: failed to import FpxImagePlugin: No module named 'olefile'
+2019-10-07 22:11:08,632 DEBUG    Importing FtexImagePlugin
+2019-10-07 22:11:08,633 DEBUG    Importing GbrImagePlugin
+2019-10-07 22:11:08,633 DEBUG    Importing GifImagePlugin
+2019-10-07 22:11:08,634 DEBUG    Importing GribStubImagePlugin
+2019-10-07 22:11:08,635 DEBUG    Importing Hdf5StubImagePlugin
+2019-10-07 22:11:08,636 DEBUG    Importing IcnsImagePlugin
+2019-10-07 22:11:08,638 DEBUG    Importing IcoImagePlugin
+2019-10-07 22:11:08,640 DEBUG    Importing ImImagePlugin
+2019-10-07 22:11:08,641 DEBUG    Importing ImtImagePlugin
+2019-10-07 22:11:08,642 DEBUG    Importing IptcImagePlugin
+2019-10-07 22:11:08,643 DEBUG    Importing JpegImagePlugin
+2019-10-07 22:11:08,643 DEBUG    Importing Jpeg2KImagePlugin
+2019-10-07 22:11:08,643 DEBUG    Importing McIdasImagePlugin
+2019-10-07 22:11:08,644 DEBUG    Importing MicImagePlugin
+2019-10-07 22:11:08,644 DEBUG    Image: failed to import MicImagePlugin: No module named 'olefile'
+2019-10-07 22:11:08,645 DEBUG    Importing MpegImagePlugin
+2019-10-07 22:11:08,645 DEBUG    Importing MpoImagePlugin
+2019-10-07 22:11:08,646 DEBUG    Importing MspImagePlugin
+2019-10-07 22:11:08,646 DEBUG    Importing PalmImagePlugin
+2019-10-07 22:11:08,647 DEBUG    Importing PcdImagePlugin
+2019-10-07 22:11:08,648 DEBUG    Importing PcxImagePlugin
+2019-10-07 22:11:08,648 DEBUG    Importing PdfImagePlugin
+2019-10-07 22:11:08,658 DEBUG    Importing PixarImagePlugin
+2019-10-07 22:11:08,659 DEBUG    Importing PngImagePlugin
+2019-10-07 22:11:08,659 DEBUG    Importing PpmImagePlugin
+2019-10-07 22:11:08,659 DEBUG    Importing PsdImagePlugin
+2019-10-07 22:11:08,659 DEBUG    Importing SgiImagePlugin
+2019-10-07 22:11:08,660 DEBUG    Importing SpiderImagePlugin
+2019-10-07 22:11:08,660 DEBUG    Importing SunImagePlugin
+2019-10-07 22:11:08,661 DEBUG    Importing TgaImagePlugin
+2019-10-07 22:11:08,661 DEBUG    Importing TiffImagePlugin
+2019-10-07 22:11:08,661 DEBUG    Importing WebPImagePlugin
+2019-10-07 22:11:08,663 DEBUG    Importing WmfImagePlugin
+2019-10-07 22:11:08,663 DEBUG    Importing XbmImagePlugin
+2019-10-07 22:11:08,665 DEBUG    Importing XpmImagePlugin
+2019-10-07 22:11:08,665 DEBUG    Importing XVThumbImagePlugin
+2019-10-07 22:11:08,667 INFO     image #7	https://s2.r29static.com/bin/entry/fb6/720x864,85/2131664/image.webp
+2019-10-07 22:11:08,669 DEBUG    Starting new HTTPS connection (1): pixel.nymag.com:443
+2019-10-07 22:11:09,607 DEBUG    https://pixel.nymag.com:443 "GET /imgs/daily/vulture/2014/05/02/02-amy-schumer.w330.h412.jpg HTTP/1.1" 200 47554
+2019-10-07 22:11:09,918 INFO     image #8	https://pixel.nymag.com/imgs/daily/vulture/2014/05/02/02-amy-schumer.w330.h412.jpg
+2019-10-07 22:11:09,920 DEBUG    Starting new HTTPS connection (1): www.rbsdirect.com.br:443
+2019-10-07 22:11:10,390 DEBUG    https://www.rbsdirect.com.br:443 "GET /imagesrc/24849682.jpg?w=700 HTTP/1.1" 200 None
+2019-10-07 22:11:10,428 INFO     image #9	https://www.rbsdirect.com.br/imagesrc/24849682.jpg?w=700
+2019-10-07 22:11:10,434 DEBUG    Starting new HTTPS connection (1): nyppagesix.files.wordpress.com:443
+2019-10-07 22:11:10,531 DEBUG    https://nyppagesix.files.wordpress.com:443 "GET /2018/05/amy-schumer.jpg?quality=90&strip=all&w=618&h=410&crop=1 HTTP/1.1" 200 56907
+2019-10-07 22:11:10,588 INFO     image #10	https://nyppagesix.files.wordpress.com/2018/05/amy-schumer.jpg?quality=90&strip=all&w=618&h=410&crop=1
+2019-10-07 22:11:10,596 DEBUG    Starting new HTTPS connection (1): timedotcom.files.wordpress.com:443
+2019-10-07 22:11:10,694 DEBUG    https://timedotcom.files.wordpress.com:443 "GET /2016/05/amy-schumer-shopping-size.jpg HTTP/1.1" 200 827875
+2019-10-07 22:11:11,796 INFO     downloaded images reach max num, thread downloader-001 is ready to exit
+2019-10-07 22:11:11,797 INFO     thread downloader-001 exit
